@@ -1,10 +1,9 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Herramientas ofimáticas aplicadas',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+      'La ofimática posee herramientas muy valiosas, dichas herramientas permiten a las organizaciones gestionar la información de forma óptima según necesidades, sin embargo, disponer de información de forma oportuna no solo es importante, también es de gran relevancia y responsabilidad hacer uso de las ofimáticas para dar manejo a la información de los clientes con seguridad y aplicando la normativa. ',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -24,161 +23,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Herramientas ofimáticas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Hoja electrónica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Configuración de hoja de cálculo',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Barra de fórmulas',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Formularios',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -186,53 +57,21 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Normatividad ambiental',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Normativa de seguridad',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -271,139 +110,213 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Corporaciones Autónomas Regionales. (2020). Glosario de Términos Ambientales. Obtenido de ',
+      link: 'https://www.car.gov.co/vercontenido/2215',
+    },
+    {
+      referencia:
+        'Dozo & Martínez Quijano. (2013). Glosario Iberoamericano de Protección de Datos. Obtenido de ',
+      link: 'https://www.habeasdat.com/GLOSARIO.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio Industria y Turismo. (2013). Decreto 1377 de 2013. Obtenido de ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://wsp.presidencia.gov.co/Normativa/Decretos/2013/Documents/JUNIO/27/DECRETO%201377%20DEL%2027%20DE%20JUNIO%20DE%202013.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Ministerio de Comercio, Industria y Turismo. (2015). Decreto 1074 de 2015. Obtenido de ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76608',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Secretaria del Senado. (2021). Artículo 15 y 79 de la Constitución Política Nacional. Obtenido de ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html#15',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Solano Hernández, A.F. (2018). Analisis y Evaluación de la Gestión Ambiental en Servientrega S.A. Obtenido de ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://repository.urosario.edu.co/bitstream/handle/10336/18287/SolanoHernandez-AndresFelipe-2018.pdf?sequence=21&isAllowed=y',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Superintendencia de Industria y Comercio, SIC. (2021) Protección de Datos Personales. Obtenido de ',
+      link: 'https://www.sic.gov.co/sobre-la-proteccion-de-datos-personales',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Unidad de Planeación Minero-Energética. (2019). Normatividad Ambiental y Sanitaria. Obtenido de: ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://www.upme.gov.co/guia_ambiental/carbon/gestion/politica/normativ/normativ.htm#BM1__NORMATIVIDAD_GENERAL',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Ambiente',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Entorno en el cual se contiene el suelo, el agua, el aire, la interrelación y las relaciones de estos elementos con otros elementos vivos.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Aviso de Privacidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'La comunicación escrita o verbal, emitida por una entidad jurídica o persona natural, dirigida a un propietario o titular para el tratamiento de los datos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Barra de fórmulas',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Espacio que permite la creación de fórmulas haciendo uso el asistente o de forma manual para la escritura de estas, (fórmulas).',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Celdas',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Intersección entre las columnas y las filas, estas representan el punto de ubicación dentro de la hoja y es en la celda donde se introduce la información.',
     },
     {
-      termino: 'Moda',
+      termino: 'Columna',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Los espacios que se ubican de forma vertical en la hoja de cálculo, se identifican por que los encabezados son letras dispuestas en orden alfabético.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Desarrollo Sostenible',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Transformaciones tanto naturales como culturales, sociales, institucionales y económicas, que están dirigidas a mejorar las condiciones de vida del ser humano.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Excel',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es un programa que permite el manejo de libros los cuales contienen hojas de cálculo.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Filas',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Son los espacios que se ubican de forma horizontal en la hoja de cálculo, se identifican por que los encabezados son números los cuales están dispuestos en orden ascendente.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Hoja de cálculo',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Espacio o área de trabajo que permite gestionar datos los cuales hacen parte de la información que se almacena en el libro.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Impacto ambiental',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Alteraciones en el medio cultural, biológico, químico o físico que es imputado a actividades humanas, generalmente relacionadas con la implementación de proyectos.',
     },
     {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Libro',
+      significado: 'Es un archivo de Excel que contiene las hojas de cálculo.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Transferencia de datos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Cuando el responsable del tratamiento de los datos con presencia en Colombia envía o transfiere los datos personales a un receptor que también tiene la connotación de ser responsable del manejo de datos a otro lugar al interior del país o al exterior. ',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Miguel, A. (2020). Ofimática, definición, historia y ejemplos. [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=rIKhE6wCNyk',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Carrillo, M. (2020). Introducción a la Hoja Electrónica de Calculo. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=xthhxRF7Epo',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Todo Software. (2019). Configurar Hoja de Cálculo Excel. [Video]. YouTube. ',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=7b2U1EsjZJw',
+    },
+    {
+      texto:
+        'Silva,V. (2020). Hoja de Cálculo (Excel) Conceptos Básicos. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=mt1CkQKuFW4&t=95s',
+    },
+    {
+      texto:
+        'Maestra Rayito. (2020) Fórmulas Básicas de Excel. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=xwtwb_BoCuY',
+    },
+    {
+      texto:
+        'El tio tech (2019) 5 fórmulas en Excel más utilizadas y indispensables para tu trabajo [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ndgQo9JYe_o',
+    },
+    {
+      texto:
+        'Profe Carlos. (2013). Como hacer funciones lógicas en Excel. [Video]. YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dWy-JjhUsBw',
+    },
+    {
+      texto:
+        'Saber Programas. (2015). Crear Tablas Dinámicas en Excel. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=gsxCopOjGZo',
+    },
+    {
+      texto:
+        'Saber programas. (2015). Crear GRÁFICOS estadísticos. Introducir datos en Excel y crear gráficas. [Video] You Tube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=04pGYGNxRZY',
+    },
+    {
+      texto:
+        'Cordova, O. (2021). Cómo enlazar o vincular celdas entre diferentes hojas. [Video] YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=PU6SqS6Rtnc',
+    },
+    {
+      texto:
+        'Saber Programas. (2019). Hipervínculo en Excel. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=A6aPJN_umtA',
+    },
+    {
+      texto:
+        'Saber programas (2018) Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos. Español HD, [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ghyGNJKjPsQ',
+    },
+    {
+      texto:
+        'El Tio Tech. (2020). Como Crear una Base de Datos en Excel. [Video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=qD1ESeppezg',
+    },
+    {
+      texto:
+        'Correa García E. (2021). Introducción a la Normatividad Ambiental en Colombia. [Video]. YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XPeC4Fw_T10',
+    },
+    {
+      texto:
+        'Escuela de Privacidad. (2020). Legislación en Protección de Datos en Colombia. [Video]. YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=bvAH9ppBbbE',
+    },
+    {
+      texto:
+        'Ministerio de Industria y Comercio. (2013). Decreto 1377 de 2013.  ',
+      tipo: 'Documento',
+      link: 'https://n9.cl/yfcpo',
+    },
+    {
+      texto:
+        'Superintendencia de Industria y Comercio. (2021) Protección de Datos Personales. ',
+      tipo: 'Artículo',
+      link: 'https://www.sic.gov.co/sobre-la-proteccion-de-datos-personales',
     },
   ],
   creditos: {
@@ -421,6 +334,34 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Gloria Liliana García',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de la industrial, la empresa y los servicios Regional Santander',
+      },
+      {
+        nombre: 'Cesar Augusto Cano Echeverri',
+        cargo: 'Coordinador tegional de formación profesional ',
+        centro: 'Centro de Comercio y Servicios Regional Risaralda',
+      },
+      {
+        nombre: 'Leidy Carolina Arias Aguirre',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de diseño y metrología',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -435,25 +376,30 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Diana Carolina Acevedo Barón',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrea Paola Botello De la Rosa',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres	',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ' ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ' ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

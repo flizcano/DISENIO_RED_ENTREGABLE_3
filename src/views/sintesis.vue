@@ -3,19 +3,30 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p(data-aos="fade") LA OFIMÁTICA es un software o aplicación que sirve para las labores de la oficina de la casa en fin donde se requiera. otra definición puede ser el equipamiento de hardware y software usado para crear, coleccionar, almacenar, manipular y transmitir digitalmente  información necesaria en una oficina para realizar tareas y lograr objetivos tanto desde lo personal como en lo organizacional.
 
-    .row.justify-content-center
+    p.mb-5(data-aos="fade") A continuación, el mapa conceptual refuerza el tema de manejo de bases de datos.
+
+    .row.justify-content-center.mb-5
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
+
+
+
+    p.mb-5(data-aos="fade") El video refiere síntesis de lo que es ofimática, usos, así como aplicabilidad en muchos campos incluidos la protección del medio ambiente.
+
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-12
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
 </template>
 
