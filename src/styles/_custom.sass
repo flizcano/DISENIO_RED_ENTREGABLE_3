@@ -11,11 +11,34 @@
   display: flex
   flex-direction: column
   justify-content: center  
+.tarjeta-flip
+  cursor: pointer   
 
 
 .banner-interno__fondo
   background-image: url('../assets/curso/fondo-banner-internas.png') !important 
 
 
-.tarjeta-flip
-  cursor: pointer    
+.bg-1
+  background-color: #ACFBF0
+
+.tema-3.slyder-e .slyder-e__content  
+  border-radius: 10px
+.tema-3 .img-absolute img  
+  position: absolute
+  top: 33%
+  left: 126%
+  width: 380px
+  @media (max-width: 992px)  
+    position: inherit
+    margin: 0 auto
+  @media (min-width: 1400px)    
+    top: 24%
+    left: 126%
+    width: 480px
+.tema-3 .row.bg-1
+  height: 408px
+  @media (max-width: 992px)  
+    height: auto
+  @media (min-width: 1400px)  
+    height: 450px  
