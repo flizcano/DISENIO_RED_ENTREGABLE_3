@@ -33,6 +33,24 @@
   top: -2.2%
   left: 3.5%
   width: 125px
+  @media (max-width: 992px)
+    width: 100px
+    left: 1%
+@keyframes float1
+  0%
+    transform: translateY(15px)
+  100%
+    transform: translateY(0px)  
+.imgs-flotantes img.img-flotante2
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: absolute
+  top: 17%
+  left: 1%
+  width: 110px
+  @media (max-width: 992px)
+    top: 7%
+    width: 95px
+    left: 0%
 @keyframes float1
   0%
     transform: translateY(15px)
@@ -48,12 +66,37 @@
   display: inline-block
   align-content: center
 .tema-2 .slyder-d__content__card .slyder__action
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  align-content: center;
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  align-content: center
   float: right
-
+.tema2-2.tabs-c .tabs-c__tab--active span
+  font-weight: bold !important
+.tema2-2.tabs-c.color-acento-contenido .tabs-c__tab--active
+  border-bottom-color: #EA3065 !important
+.tema2-2.tabs-c.color-acento-contenido .tabs-c__tab--active:before
+  border-top-color: #EA3065 !important
+.tema2-2-1 .slyder-a__tipo-a .slyder-a__bullets
+  bottom: 15px  
+.tema2-2-1 .slyder-a__btn--sigt, .tema2-2-1 .slyder-a__btn--atrs
+  width: 40px
+  height: 40px
+  background-color: #B0C0D2
+  border-radius: 0%
+.tema2-2-1 .img-absoluta img
+  position: absolute
+  top: 0%
+  right: 10%
+  width: 450px
+  z-index: 1
+  @media (max-width: 992px)  
+    position: inherit
+  @media (min-width: 1400px)  
+    top: -5%
+.tema2-2-1 .texto-absoluto
+  z-index: 999
+  position: relative
 
 .tema-3.slyder-e .slyder-e__content  
   border-radius: 10px
@@ -72,15 +115,14 @@
 .tema-3 .row.bg-1
   height: 408px
   @media (max-width: 992px)  
-    height: auto
+    height: 869px
   @media (min-width: 1400px)  
     height: 450px  
 
 .tema-4 .slyder-a__tipo-a .slyder-a__bullets
   bottom: 15px    
-.tema-4 .slyder-a__item .row
-  height: 668px
-  @media (max-width: 992px)  
-    height: auto
-  @media (min-width: 1400px)  
-    height: 670px 
+.tema-4 .slyder-a__btn--sigt, .tema-4 .slyder-a__btn--atrs
+  width: 40px
+  height: 40px
+  background-color: #B0C0D2
+  border-radius: 0%

@@ -15,8 +15,9 @@
     SlyderA.mb-5.tema-4(data-aos="fade-down")
       .row.justify-content-center
         .col-md-10.bg-2.py-5.px-4.px-md-0
-          h1.text-center Normativa de Seguridad
           .row.justify-content-center.align-items-center
+            .col-md-10.mb-2
+              h1.text-center Normativa de Seguridad
             .col-md-5.mb-4.mb-md-0
               p La Constitución Política de Colombia en el artículo 15 hace referencia a: “Todas las personas tienen derecho a su intimidad personal y a su buen nombre y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas” (Constitución Política de Colombia, Art 15, 2021).
             .col-md-5
