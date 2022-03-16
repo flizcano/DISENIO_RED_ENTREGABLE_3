@@ -36,7 +36,7 @@
               img.mb-3(src='@/assets/curso/tema1-flip2.png', alt='Imagen decorativa')
               h4.mb-0 Este grupo de herramientas es amplio y permiten crear exposiciones o presentaciones multimedia, como herramientas de presentación se cuenta el PowerPoint, Prezi, Keynote, Google Slides, Glogster.
       .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-flip.color-acento-contenid
+        .tarjeta.tarjeta-flip.color-acento-contenido
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1-flip3.svg')})`}")
             .tarjeta-flip__contenido.p-4
