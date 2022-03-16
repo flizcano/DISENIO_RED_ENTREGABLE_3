@@ -18,9 +18,42 @@
 .banner-interno__fondo
   background-image: url('../assets/curso/fondo-banner-internas.png') !important 
 
-
 .bg-1
   background-color: #ACFBF0
+.bg-2
+  background-color: #FFDE96
+
+
+
+.imgs-flotantes
+  position: relative
+.imgs-flotantes img.img-flotante
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: absolute
+  top: -2.2%
+  left: 3.5%
+  width: 125px
+@keyframes float1
+  0%
+    transform: translateY(15px)
+  100%
+    transform: translateY(0px)  
+
+
+.tema-2 .slyder-d__content__card
+  width: 550px
+  @media (max-width: 992px)
+    width: auto
+.tema-2 .slyder-d__content__card p     
+  display: inline-block
+  align-content: center
+.tema-2 .slyder-d__content__card .slyder__action
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: center;
+  float: right
+
 
 .tema-3.slyder-e .slyder-e__content  
   border-radius: 10px
@@ -42,3 +75,12 @@
     height: auto
   @media (min-width: 1400px)  
     height: 450px  
+
+.tema-4 .slyder-a__tipo-a .slyder-a__bullets
+  bottom: 15px    
+.tema-4 .slyder-a__item .row
+  height: 668px
+  @media (max-width: 992px)  
+    height: auto
+  @media (min-width: 1400px)  
+    height: 670px 

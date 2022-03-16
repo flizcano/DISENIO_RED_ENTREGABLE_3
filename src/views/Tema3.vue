@@ -17,7 +17,7 @@
     p.mb-0(data-aos="fade") Para ampliar la información, lo invitamos a ver el video “Introducción a la Normatividad Ambiental en Colombia”, que se encuentra en el material complementario.
     p.mb-5(data-aos="fade") Continuando con la temática de normatividad ambiental, se le sugiere visualizar el siguiente recurso con el fin de reforzar lo aprendido.
 
-    SlyderE.tema-3.border-r10.mb-5.hover-columna(indicadores="derecha")
+    SlyderE.tema-3.border-r10.hover-columna(indicadores="derecha")
       .row.justify-content-center.align-items-center.py-5.px-4.px-md-0.bg-1
         .col-md-5.mb-4.mb-md-0
           img(src='@/assets/curso/tema3-slide1.svg', alt='Texto que describa la imagen', style="width: 410px; margin: 0 auto;")

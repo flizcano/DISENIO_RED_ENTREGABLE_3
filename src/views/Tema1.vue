@@ -9,9 +9,10 @@
       h1 Herramientas ofimáticas
 
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4.imgs-flotantes
       .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
         img(src='@/assets/curso/tema1-img1.svg', alt='Imagen decorativa')
+        img.img-flotante(src='@/assets/curso/sobre-flotante.svg', alt='Imagen decorativa')
       .col-md-6(data-aos="fade-left")
         p Las herramientas ofimáticas son el conjunto de programas o herramientas de sistemas que son utilizados por las organizaciones y que les permite gestionar y optimizar las funciones relacionadas con la operación o funcionamiento de las oficinas, es decir, las herramientas permiten crear, procesar, modificar, organizar, imprimir e incluso escanear documentos que se generan diariamente y que dan lectura de la operación y funcionamiento de la organización. 
 
