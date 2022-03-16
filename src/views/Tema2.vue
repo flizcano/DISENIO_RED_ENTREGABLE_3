@@ -111,13 +111,108 @@
             .col-md-7
               img(src='@/assets/curso/tema2-2-1-slide5-2.svg', alt='Imagen decorativa')
 
-
-
     p(data-aos="fade") Para ampliar la información sobre la manera como se pueden configurar las operaciones básicas, lo invitamos a ver el video “Fórmulas básicas en Excel”, que se encuentra en el material complementario.
 
     p.mb-4(data-aos="fade") Ahora, sigamos aprendiendo de las diferentes fórmulas de trabajo en hojas de cálculo.
 
+    .tarjeta--container.row.mb-4
+      .col-md.tarjeta.color-acento-botones.p-5   
+        h2.text-center.mb-5 La base de las funciones lógicas es el manejo de funciones algebraicas de la forma:
+        p.text-center F(x) = 2x
+        p.text-center Estas funciones tienen la característica que tienen una variable dependiente y una independiente, esto quiere decir, que se debe encontrar el resultado de multiplicar el número 2, que es la variable dependiente, por cualquier número x, la cual es la variable independiente.
+      .col-md.tarjeta.color-acento-contenido.text-white.p-5          
+        h2.text-center.mb-5 X puede tomar cualquier número
+        p.text-center.mb-md-5 Pero el número 2 se debe de conservar, así por ejemplo podemos ver la operación en la siguiente tabla.
+        img(src='@/assets/curso/tema2-2-1-tarj2-tabla1.svg', alt='Tabla')
 
+    .tarjeta--container.row.mb-4
+      .col-md.tarjeta.color-primario.p-5   
+        h2.text-center.mb-5 Se puede notar que el número 2 siempre se repite, el que cambia es el valor de x
+        img(src='@/assets/curso/tema2-2-1-tarj3-tabla2.svg', alt='Tabla')
+      .col-md.tarjeta.color-secundario.text-white.p-5          
+        h2.text-center.mb-5 La anterior es una función sencilla 
+        p.text-center.mb-md-4 Pero se pueden hacer funciones muy complejas. Lo importante es que la parametrización de la fórmula que se ingrese sea correcta. Por ejemplo, deseo encontrar el resultado de varias multiplicaciones.
+        p.text-center F(x) = 2x + 3x + 4x
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.bg-3.text-white.p-5   
+        h2.text-center.mb-5 La forma de resolver esta fórmula
+        p.text-center Es que se deben de hacer los cálculos de manera independiente, de la siguiente forma
+        p.text-center.mb-0 F(x) = (2*2) + (3*2) + (4*2) 	
+        p.text-center (1) 
+        p.text-center Nótese que el valor de X debe ser siempre el mismo, en este caso. 
+      .col-md.tarjeta.bg-4.text-white.p-5          
+        h2.text-center.mb-5 Si la forma de la función es 
+        p.text-center.mb-0 F(x) = 2x + 3y + 4z
+        p.text-center Los valores de las variables deben de cambiar de la siguiente manera
+        p.text-center.mb-0 F(x) = (2*2) + (3*5) + (4*7)	
+        p.text-center (2)
+        p.text-center Por eso es importante que, antes de ingresar los valores a la hoja de cálculo, realice la formulación usando papel y lápiz.
+
+    p.mb-4(data-aos="fade") Otro punto importante es que cada operación debe ser ingresada entre paréntesis para que sea identificada por la hoja electrónica adecuadamente. Una de las formas de ingresar los valores es la siguiente:
+
+    h4.mb-4(data-aos="fade-right") En (1)
+      br 
+      | Ingreso de valores 
+    figure.mb-5(data-aos="fade-down")
+      img(src='@/assets/curso/tema2-2-1-img1.png', alt='Ingreso de valores')
+
+    h4.mb-4(data-aos="fade-right") En (2)
+      br 
+      | Combinación de operaciones
+    figure.mb-5(data-aos="fade-down")
+      img(src='@/assets/curso/tema2-2-1-img2.png', alt='Combinación de operaciones')
+
+    p.mb-4(data-aos="fade") Pueden realizarse combinaciones de operaciones, lo importante es ubicar los paréntesis de la forma adecuada para que se indique, que primero se deben realizar las operaciones entre paréntesis y luego realizar la operación final.
+
+    h4.mb-0(data-aos="fade-right") Funciones Lógicas de Excel
+    p.mb-5(data-aos="fade") Las funciones lógicas tienen la característica que pueden realizar cálculos en datos agrupados, un dato agrupado son valores que forman parte de una columna que tiene un título y todos los valores que se encuentran debajo del título tienen relación, por ejemplo: 
+
+
+    h4.mb-0(data-aos="fade-right") Figura 1
+    p.mb-4(data-aos="fade") Ejemplo funciones lógicas de Excel
+
+    figure.mb-4(data-aos="fade-down")
+      img(src='@/assets/curso/tema2-2-1-fig1.png', alt='Ejemplo funciones lógicas de Excel')
+
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-md-9
+        ol.lista-ol--cuadro
+          li.mb-4
+            .lista-ol--cuadro__vineta
+              span 1
+            | Nótese que cada columna tiene un nombre y los valores que están debajo del título están relacionados.
+          li.mb-4 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Las fórmulas lógicas sólo se pueden aplicar a datos agrupados para que el resultado que se obtenga sea lógico y útil.
+          li.mb-4
+            .lista-ol--cuadro__vineta
+              span 3
+            | Excel cuenta con más de 300 fórmulas lógicas para el tratamiento de datos y su principal función es obtener resultados que permitan tomar decisiones.
+          li.mb-4
+            .lista-ol--cuadro__vineta
+              span 4
+            | Para acceder a las opciones de fórmulas lógicas, se debe de dar clic en la barra de fórmulas en el ícono. 
+
+
+    h4.mb-0(data-aos="fade-right") Figura 2
+    p.mb-4(data-aos="fade") Ícono de fórmulas lógicas
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-6
+        figure(data-aos="fade-down")
+          img(src='@/assets/curso/tema2-2-1-fig2.png', alt='Ícono de fórmulas lógicas')
+
+    p.mb-5(data-aos="fade") Se desplegará un cuadro de opciones de la siguiente manera:
+
+    h4.mb-0(data-aos="fade-right") Figura 3
+    p.mb-4(data-aos="fade") Buscador de funciones
+
+    figure.mb-5(data-aos="fade-down")
+      img(src='@/assets/curso/tema2-2-1-fig3.png', alt='Ejemplo funciones lógicas de Excel')
+
+    p.mb-5(data-aos="fade") Para observar el funcionamiento de las funciones lógicas más utilizadas, lo invitamos a ver el video “Cómo hacer funciones lógicas en Excel”, que se encuentra en el material complementario:
 
 
 
