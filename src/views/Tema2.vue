@@ -266,7 +266,49 @@
 
     p.mb-5(data-aos="fade") Los tableros inteligentes son herramientas de ayuda en la creación y propagación de la información, explore el siguiente recurso con el fin de conocer más acerca de ellos.
 
+    #MapaGroup01.mb-4.tema2-2-4(data-aos="fade-down")
+      .row.justify-content-center
+        .col-md-6.hover-columna
+          .row.justify-content-center.align-items-center.botones
+            .col-md-3.col-4
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+                img.ChangeSRC01(src='@/assets/curso/tema2-2-4-btn1.svg', alt='botón 1')
+            .col-md-3.col-4.absoluta
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')(@mouseover="mostrarIndicador = false")
+                .indicador--click(v-if="mostrarIndicador")
+                img.ChangeSRC02(src='@/assets/curso/tema2-2-4-btn2.svg', alt='botón 2' )
+            .col-md-3.col-4
+              .tarjeta.btn-grupo.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse2')
+                img.ChangeSRC03(src='@/assets/curso/tema2-2-4-btn3.svg', alt='botón 3' )
+          .row.fondo
+            .fondo-botones
+              img(src='@/assets/curso/tema2-2-4-fondo-botones.png', alt='Fondo' )
 
+      .row.justify-content-center.bg-contenido.py-4.multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
+        .row.justify-content-around
+          .col-md-3.py-0.py-md-4
+            p El <b style="font-size: 18px;">Dashboard</b> es una herramienta muy útil para presentar los datos que se compilan en una o varias tablas dinámicas.
+          .col-md-6
+              img(src='@/assets/curso/tema2-2-4-tab1.png', alt='Dashboard')
+      .row.justify-content-center.bg-contenido.py-4.multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
+        .col-md-4.mb-4.mb-md-0
+          p La gran ventaja de esta herramienta es que a medida que se actualizan los datos en la base de datos principal, el gráfico dinámico también se actualiza. Es una herramienta muy útil para hacer seguimiento a indicadores y para observar el histórico del comportamiento de los datos. Se permite también visualizar de manera gráfica y ordenada la información que se ha consolidado en una base de datos.
+        .col-md-3.pos-relative
+          .top-nube
+            img(src='@/assets/curso/tema2-2-4-tab2-1-2.svg', alt='Imagen decorativa')
+          .movimiento-nube
+            img(src='@/assets/curso/tema2-2-4-tab2-1-1.svg', alt='Imagen decorativa') 
+        .col-md-4
+          img(src='@/assets/curso/tema2-2-4-tab2-2.svg', alt='Imagen decorativa')  
+      .row.justify-content-center.bg-contenido.py-4.multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
+        .row.justify-content-around
+          .col-md-5.py-0.py-md-4
+            p Permite también la toma de decisiones para el direccionamiento de la empresa por parte de la alta dirección. Se incluye también gráficos y números sobre un proyecto. Son útiles al implementar modelos eficientes y eficaces para el manejo de la información y permiten de manera inteligente cruzar datos y visualizarlos, otra ventaja es que permite la personalización y su diseño se puede adaptar a las necesidades de la empresa, es un proceso de fácil diseño, comprensión e implementación
+          .col-md-5.pos-relative
+            figure
+              img(src='@/assets/curso/tema2-2-4-tab3-1.png', alt='Imagen decorativa')               
+            .img-absoluta.movimiento-lupa
+              img(src='@/assets/curso/tema2-2-4-tab3-2.png', alt='Lupa')
 
 
     p(data-aos="fade") Para ampliar la información, lo invitamos a ver el video “Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos”, que se encuentra en el material complementario.
@@ -321,6 +363,7 @@ export default {
     SlyderC3,
   },
   data: () => ({
+    mostrarIndicador: true,
     datosSlyder: [
       {
         texto: '<b>Hoja de cálculo o electrónica</b>',
