@@ -59,7 +59,7 @@
 
 
     // 2.2.1
-    h3.titulo-tercero(data-aos="fade-right") Fórmulas básicas y lógicas
+    h3.titulo-tercero.mb-4(data-aos="fade-right") Fórmulas básicas y lógicas
 
     p.mb-4(data-aos="fade") El siguiente recurso le dará un recorrido por las fórmulas básicas y lógicas de Excel.
 
@@ -215,11 +215,61 @@
     p.mb-5(data-aos="fade") Para observar el funcionamiento de las funciones lógicas más utilizadas, lo invitamos a ver el video “Cómo hacer funciones lógicas en Excel”, que se encuentra en el material complementario:
 
 
+    // 2.2.2
+    h3.titulo-tercero.mb-4(data-aos="fade-right") Gráficos y Tablas dinámicas
+
+    p.mb-4(data-aos="fade") Le invitamos a ver el siguiente recurso, donde conocerá los gráficos y las tablas dinámicas.
+
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-12
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    p.mb-4(data-aos="fade") Para ampliar la información sobre la configuración de una tabla dinámica, lo invitamos a ver el video “Crear tablas dinámicas en Excel”, que se encuentra en el material complementario. 
+
+    p(data-aos="fade") Y complemente la información explorando el siguiente recurso.
+
+    SlyderC3.tema2-2-2(:datos="datosSlyder2")
+
+    p.mb-5(data-aos="fade") Para ampliar la información sobre la construcción de gráficos, lo invitamos a ver el video “Crear GRÁFICOS estadísticos. Introducir datos en Excel y crear gráficas”, que se encuentra en el material complementario. 
+
+
+    // 2.2.3
+    h3.titulo-tercero.mb-4(data-aos="fade-right") Relación y vínculos entre hojas y libros
+
+    p.mb-4(data-aos="fade") El siguiente recurso muestra la relación  y vínculos entre hojas y libros, con el fin de mejorar la organización.
+
+    .row.tema2-2-3.justify-content-center.d-flex.mb-4
+      .col-md-5.border-r10.bg-acento-botones.text-white.py-4.px-3.px-md-4.mx-2.mb-4.mb-md-3.h-342(data-aos="fade-right")
+        h4 Relación y vínculos entre hojas y libros
+        p.mb-0 Los datos en una base de datos cobran vida cuando se relacionan con otros datos de otras bases de datos diferentes a la principal pero que se complementan.
+      .col-md-5.border-r10.bg-acento-botones.text-white.py-4.px-3.px-md-4.mx-2.mb-4.mb-md-3.h-342(data-aos="fade-left")
+        h4 En muchos casos en las empresas diferentes áreas generan bases de datos que se enfocan en su función empresarial. 
+        p.mb-0 En ese contexto es necesario tener presente que en la administración moderna todas las empresas deben tener enfoques sistémicos donde todo está relacionado. Si no se tiene presente que la interacción de las áreas es inherente al funcionamiento de la organización, dicha organización está condenada al fracaso una vez que no está implementando procesos de mejora continua que busquen el mejoramiento de la competitividad.
+
+      .col-md-5.border-r10.bg-acento-botones.text-white.py-4.px-3.px-md-4.mx-2.mb-4.mb-md-3.h-342(data-aos="fade-right")
+        h4 Es en ese contexto que la relación de las áreas se ve evidenciada cuando las bases de datos se pueden relacionar. 
+        p.mb-0 Para poder hacer esa asociación se debe de tener un dato en común, por lo general se usa el número de identificación personal o empresarial y partiendo de ese dato clave se pueden relacionar las bases de datos.
+      .col-md-5.border-r10.bg-acento-botones.text-white.py-4.px-3.px-md-4.mx-2.mb-4.mb-md-3.h-342(data-aos="fade-left")
+        h4 En el capítulo anterior se trató el tema de las funciones lógicas.
+        p.mb-0 la función BUSCARV permite buscar en una base de datos alterna un dato que se encuentra en la base de datos principal y asociar una base de datos con otra.
+
+      .col-md-10.border-r10.bg-acento-botones.text-white.py-4.px-3.px-md-4.mb-4.mb-md-3(data-aos="fade-down")
+        h4 También es importante 
+        p.mb-0 Generar enlaces de consulta dentro de la misma base de datos o que lleve a una dirección WEB. Así se permite complementar la información y ampliar un concepto o soportar un dato.
+
+    p.mb-5(data-aos="fade") Para ampliar la información, lo invitamos a ver el video “Cómo enlazar o vincular celdas entre diferentes hojas”, que se encuentra en el material complementario.
+
+
+    // 2.2.4
+    h3.titulo-tercero.mb-4(data-aos="fade-right") Dashboard
+
+    p.mb-5(data-aos="fade") Los tableros inteligentes son herramientas de ayuda en la creación y propagación de la información, explore el siguiente recurso con el fin de conocer más acerca de ellos.
 
 
 
 
-
+    p(data-aos="fade") Para ampliar la información, lo invitamos a ver el video “Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos”, que se encuentra en el material complementario.
 
 
     Separador
@@ -263,10 +313,12 @@
 
 <script>
 import SlyderC2 from '../components/SlyderC2.vue'
+import SlyderC3 from '../components/SlyderC3.vue'
 export default {
   name: 'Tema2',
   components: {
     SlyderC2,
+    SlyderC3,
   },
   data: () => ({
     datosSlyder: [
@@ -299,6 +351,23 @@ export default {
         texto:
           '3. Finalmente y como se observa en la imagen, se obtiene el resultado de la operación.',
         imagen: require('@/assets/curso/tema2-1-slide4.png'),
+      },
+    ],
+    datosSlyder2: [
+      {
+        texto:
+          'Para la configuración de una tabla dinámica se utiliza la herramienta que está en el menú de herramientas Pivot Table y luego se hace clic en tabla dinámica de la siguiente manera;',
+        imagen: require('@/assets/curso/tema2-2-2-slide1.png'),
+      },
+      {
+        texto:
+          'Cuando se tienen muchos datos su análisis se puede volver complejo, si utilizamos gráficos, se puede presentar la información de una manera más comprensible, agradable a los ojos y dinámico. <br> Las condiciones para crear gráficos en Excel deben tener ciertas condiciones sobre todo de no tener espacios en blanco en los datos que se van a procesar. Nuevamente es recomendable que se utilice el lápiz y el papel para poder visualizar lo que se pretende lograr cuando se analizan los datos',
+        imagen: require('@/assets/curso/tema2-2-2-slide2.svg'),
+      },
+      {
+        texto:
+          'Excel tiene por lo menos unos 100 formatos de gráficos que pueden ser usados en la construcción de interfaces amigables. Nuevamente recalcamos que el tipo de gráfico que se va a seleccionar debe de ayudar a que los gráficos se comprendan de una mejor manera.',
+        imagen: require('@/assets/curso/tema2-2-2-slide3.svg'),
       },
     ],
   }),
