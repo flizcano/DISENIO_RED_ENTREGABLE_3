@@ -8,9 +8,11 @@
         span 3
       h1 Normatividad ambiental 
     p.mb-5 La normatividad es de gran importancia en cualquier aspecto de estudio e investigación, por lo tanto le invitamos a explorar el siguiente recurso con el fin de mejorar sus conocimientos en normatividad ambiental.
-    //todo  CAMBIAR POR COMPONENTE INTERATIVO///
-    figure.mb-5
-      img(src='@/assets/curso/56.png', alt='Texto que describa la imagen')
+    .botones-hover.mb-4.p-5
+      .imagen-float__1: img(src='@/assets/curso/float1.png')
+      .imagen-float__2: img(src='@/assets/curso/float6.svg')
+      .imagen-float__3: img(src='@/assets/curso/float2.png')
+      Botones(data-aos="fade-down")
     .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
         .col-lg-1
@@ -32,8 +34,12 @@
 </template>
 
 <script>
+import Botones from '../components/Botones.vue'
 export default {
   name: 'Tema3',
+  components: {
+    Botones,
+  },
   data: () => ({
     datosSlyder: [
       {
@@ -73,4 +79,31 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.botones-hover
+  background-image: url(../assets/curso/fondo-claro.svg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  border-radius: 20px
+  position: relative
+  .imagen-float
+    &__1
+      position: absolute
+      animation: float 4s infinite alternate
+      top: -10%
+      left: 2%
+      width: 125px
+    &__2
+      position: absolute
+      animation: float 4s infinite alternate
+      bottom: 0%
+      right: 2%
+      width: 100px
+    &__3
+      position: absolute
+      animation: float 4s infinite alternate
+      bottom: 0%
+      right: 55%
+      width: 70px
+</style>

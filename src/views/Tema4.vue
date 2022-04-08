@@ -48,7 +48,7 @@
           br
           br
           |Los datos sensibles son los datos que pueden llegar a afectar la intimidad del titular, el uso indebido de la información puede generar riesgos e incluso discriminación, la revelación de datos del titular como pertenencia organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud, datos biométricos son datos de alta sensibilidad y que se debe garantizar la protección de estos en pro de la garantía del bienestar del propietario de estos.
-    SlyderA.slyder-rojo-2
+    SlyderA.slyder-rojo-2.mb-5
       .row
         .col-md-4
           figure
