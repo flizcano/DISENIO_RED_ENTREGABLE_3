@@ -18,7 +18,7 @@
         .col-9
           p.mb-0 Para ampliar la información, lo invitamos a ver el video <b>“Introducción a la Normatividad Ambiental en Colombia”</b>, que se encuentra en el material complementario.
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=XPeC4Fw_T10" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
     p.mb-5 Continuando con la temática de normatividad ambiental, se le sugiere visualizar el siguiente recurso con el fin de reforzar lo aprendido.

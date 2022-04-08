@@ -98,7 +98,7 @@
         .col-9
           p.mb-0 En el video <b>“Normativa de Seguridad”</b>, que se encuentra en el material complementario, encontrará información sobre la legislación en protección de datos personales en Colombia.  
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=bvAH9ppBbbE" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
 

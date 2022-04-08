@@ -26,7 +26,7 @@
         .col-9
           p.mb-0 Para tener una comprensión más clara de la hoja de cálculo y su operatividad, lo invitamos a ver el video <b>“Introducción a la hoja de cálculo”</b>, que se encuentra en el material complementario.
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=xthhxRF7Epo" target="_blank")
             span Ver mas
             i.fas.fa-file-download
     p.mb-5 A continuación, se va a analizar el procedimiento para configurar una hoja de cálculo y las diferentes funciones que esta posee. En este caso se va a utilizar la herramienta de Excel, pero los ejemplos y ejercicios se pueden realizar en cualquier software de hoja de cálculo.
@@ -112,7 +112,7 @@
         .col-9
           p.mb-0 En el vídeo <b>“Hoja de Cálculo (Excel) Conceptos Básicos”</b>, que se encuentra en el material complementario, se puede apreciar con claridad la ubicación de los componentes de la hoja de cálculo que le permitirán ubicar las diferentes zonas de la hoja de cálculo, así podrá escribir en el lugar adecuado los valores para que realice las operaciones con los cuales se obtengan los resultados esperados.
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=mt1CkQKuFW4&t=95s" target="_blank")
             span Ver mas
             i.fas.fa-file-download
     h3.titulo-tercero(data-aos='fade-right') Fórmulas básicas y lógicas
@@ -123,8 +123,11 @@
         .slyder-card-front__card.p-5
           .img-float(style=' top: -35px; left: 9%; width: 80px'): img(src='@/assets/curso/float2.svg')
           p.mb-2.pe-5 Las operaciones que se pueden realizar en Excel son múltiples y variadas, se pueden hacer operaciones sencillas hasta operaciones muy complejas. 
-          audio(controls autoplay) 
-            source(src='#' type='audio.mpeg')
+          <audio controls>
+            <source src="../../public/downloads/audio.mp3" type="audio/ogg">
+            <source src="../../public/downloads/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
       .tarjeta.color-primario.rounded-0.slyder-card-front
         img(src='@/assets/curso/25.jpg' alt='AvatarTop' style='width: 820px')
         .slyder-card-front__card.p-5
@@ -282,14 +285,14 @@
         .col-9
           p.mb-0 Para observar el funcionamiento de las funciones lógicas más utilizadas, lo invitamos a ver el video <b>“Cómo hacer funciones lógicas en Excel”</b>, que se encuentra en el material complementario.
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=dWy-JjhUsBw" target="_blank")
             span Ver mas
             i.fas.fa-file-download
     h3.titulo-tercero(data-aos='fade-right') Gráficos y Tablas dinámicas
     p.mb-5 Le invitamos a ver el siguiente recurso, donde conocerá los gráficos y las tablas dinámicas.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/BN6p79MReoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
         .col-lg-1
@@ -297,7 +300,7 @@
         .col-9
           p.mb-0 Para ampliar la información sobre la configuración de una tabla dinámica, lo invitamos a ver el video <b>“Crear tablas dinámicas en Excel”</b>, que se encuentra en el material complementario. 
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=gsxCopOjGZo" target="_blank")
             span Ver mas
             i.fas.fa-file-download
     p.mb-5 Y complemente la información explorando el siguiente recurso.
@@ -328,7 +331,7 @@
         .col-9
           p.mb-0 Para ampliar la información sobre la construcción de gráficos, lo invitamos a ver el video <b>“Crear GRÁFICOS estadísticos. Introducir datos en Excel y crear gráficas”</b>, que se encuentra en el material complementario. 
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=04pGYGNxRZY" target="_blank")
             span Ver mas
             i.fas.fa-file-download  
     h3.titulo-tercero(data-aos='fade-right') Relación y vínculos entre hojas y libros.
@@ -379,7 +382,7 @@
         .col-9
           p.mb-0 Para ampliar la información, lo invitamos a ver el video <b>“Cómo enlazar o vincular celdas entre diferentes hojas”</b>, que se encuentra en el material complementario.
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=PU6SqS6Rtnc" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
     h3.titulo-tercero(data-aos='fade-right') <em>Dashboard</em> 
@@ -404,7 +407,7 @@
         .col-9
           p.mb-0 Para ampliar la información, lo invitamos a ver el video <b>“Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos”</b>, que se encuentra en el material complementario.
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=ghyGNJKjPsQ" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
     .titulo-segundo.color-acento-contenido
@@ -412,7 +415,7 @@
     p.mb-5 Le invitamos a visualizar el siguiente video con el fin de conocer más sobre los formularios y su función en las herramientas ofimáticas. 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ys10wr50zz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
         .col-lg-1
@@ -420,7 +423,7 @@
         .col-9
           p.mb-0 Para conocer la forma como se diseña un formulario en Excel y sus posibles parametrizaciones, lo invitamos a ver el video <b>“Cómo crear una base de datos en Excel”</b>, que se encuentra en el material complementario.
         .col-2
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=qD1ESeppezg" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
     h3.titulo-tercero(data-aos='fade-right') Configuración de preguntas

@@ -64,15 +64,15 @@
         p <b>Offline:</b> cuando las aplicaciones se encuentran instaladas directamente en los computadores.
           br
           |<b>Online:</b> cuando se accede por conexión a Internet y las aplicaciones se encuentran en un servidor externo. Funcionan como si estuviesen instaladas en el computador, se obtiene accesibilidad desde cualquier dispositivo y la información queda alojada en la nube.
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
         .col-lg-1
           img(src="@/assets/curso/10.svg")
         .col-9
-          p.mb-0 Para ampliar información, lo invitamos a ver el video “Herramientas ofimáticas”, que se encuentra en el material complementario.
-        .col-1
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-            span Descargar
+          p.mb-0 Para ampliar información, lo invitamos a ver el video <b>“Herramientas ofimáticas”</b>, que se encuentra en el material complementario.
+        .col-2
+          a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=Hs7UG7RO3_M&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
+            span Ver mas
             i.fas.fa-file-download
     h3.titulo-tercero(data-aos='fade-right') ¿Cuáles son las suites informáticas que se ofrecen en el mercado?
     p.mb-5 Las siguientes son las suites informáticas más utilizadas en el mercado (Pauls, S., 2021):
