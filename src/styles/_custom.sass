@@ -1,241 +1,49 @@
-.hover-columna
+// Flechas editadas Slyder // 
+
+.flechas-rojas
+  .fa-chevron-left
+    &:before
+      content: url(../assets/curso/flecha-izquierda.svg) 
+  .fa-chevron-right
+    &:before
+      content: url(../assets/curso/flecha-derecha.svg) 
+
+// Flechas editadas Slyder // 
+
+// Tarjeta up slyde // 
+
+.tarjeta-up-slyde
   position: relative
-.pos-relative  
-  position: relative
+  img
+    width: 100%
+  &__content
+    width: 100%
+    height: 100%
+    position: absolute
+    left: 0
+    bottom: -80%
+    transition: bottom 0.5s ease-in-out
+    p
+      opacity: 0
+      transition: opacity 0.5s ease-in-out
+    &.color-primario
+      background: $color-primario
+    &.color-secundario
+      background: $color-secundario
+    &.color-acento-contenido
+      background: $color-acento-contenido
+    &.color-acento-botones
+      background: $color-acento-botones
+  &:hover
+    .tarjeta-up-slyde__content
+      bottom: 0
+      p
+        opacity: 1
 
-.border-r10
-  border-radius: 10px    
-.centrar-img
-  margin: 0 auto
-.text-normal
-  color: $color-sistema-texto !important
-.img-center
-  display: flex
-  flex-direction: column
-  justify-content: center  
-.tarjeta-flip
-  cursor: pointer   
+// Tarjeta up slyde // 
 
+//Ignore padding // ---------------------------------------------------
+.ignore-p
+  margin: 0 -3rem 
+//Ignore padding // ---------------------------------------------------
 
-.banner-interno__fondo
-  background-image: url('../assets/curso/fondo-banner-internas.png') !important 
-
-.bg-1
-  background-color: #ACFBF0
-.bg-2
-  background-color: #FFDE96
-.bg-3
-  background-color: #12263F
-.bg-4
-  background-color: #636363
-.bg-acento-botones
-  background-color: #43A99B
-
-.imgs-flotantes
-  position: relative
-.imgs-flotantes img.img-flotante
-  animation: float1 3.5s ease-in-out infinite alternate
-  position: absolute
-  top: -2.2%
-  left: 3.5%
-  width: 125px
-  @media (max-width: 992px)
-    width: 100px
-    left: 1%
-@keyframes float1
-  0%
-    transform: translateY(15px)
-  100%
-    transform: translateY(0px)  
-.imgs-flotantes img.img-flotante2
-  animation: float1 3.5s ease-in-out infinite alternate
-  position: absolute
-  top: 17%
-  left: 1%
-  width: 110px
-  @media (max-width: 992px)
-    top: 7%
-    width: 95px
-    left: 0%
-@keyframes float1
-  0%
-    transform: translateY(15px)
-  100%
-    transform: translateY(0px)  
-
-
-.tema-2 .slyder-d__content__card
-  width: 550px
-  @media (max-width: 992px)
-    width: auto
-.tema-2 .slyder-d__content__card p     
-  display: inline-block
-  align-content: center
-.tema-2 .slyder-d__content__card .slyder__action
-  display: flex
-  align-items: center
-  justify-content: flex-end
-  align-content: center
-  float: right
-.tema2-2.tabs-c .tabs-c__tab--active span
-  font-weight: bold !important
-.tema2-2.tabs-c.color-acento-contenido .tabs-c__tab--active
-  border-bottom-color: #EA3065 !important
-.tema2-2.tabs-c.color-acento-contenido .tabs-c__tab--active:before
-  border-top-color: #EA3065 !important
-.tema2-2-1 .slyder-a__tipo-a .slyder-a__bullets
-  bottom: 15px  
-.tema2-2-1 .slyder-a__btn--sigt, .tema2-2-1 .slyder-a__btn--atrs
-  width: 40px
-  height: 40px
-  background-color: #B0C0D2
-  border-radius: 0%
-.tema2-2-1 .img-absoluta img
-  position: absolute
-  top: 0%
-  right: 10%
-  width: 450px
-  z-index: 1
-  @media (max-width: 992px)  
-    position: inherit
-  @media (min-width: 1400px)  
-    top: -5%
-.tema2-2-1 .texto-absoluto
-  z-index: 999
-  position: relative
-.tema2-2-3 .h-342
-  height: 342px
-  display: flex
-  align-content: center
-  flex-direction: column
-  justify-content: center
-  @media (max-width: 992px) 
-    height: auto
-
-.ChangeSRC01, .ChangeSRC02, .ChangeSRC03
-  cursor: pointer    
-.tema2-2-4 .bg-contenido
-  background-color: #F2F2F2
-  border-top: 14px solid #FF8578
-  border-bottom-left-radius: 10px
-  border-bottom-right-radius: 10px
-.tema2-2-4 .botones
-  height: 175px
-  @media (max-width: 992px) 
-    height: auto
-  @media (min-width: 1400px) 
-    height: 190px
-.tema2-2-4 .btn-grupo 
-  width: 110px
-  height: 110px
-  display: flex
-  margin: 0 auto
-  align-content: center
-  justify-content: center
-  align-items: center
-  background: #FED981
-  border-radius: 50%
-  border: 12px solid #FFFFFF
-  z-index: 999
-  position: relative
-  @media (max-width: 992px) 
-    border: 10px solid #FFFFFF
-.tema2-2-4 .btn-grupo img
-  display: flex
-  width: 100px
-  margin: 0px
-  padding: 0px
-  align-content: center
-  flex-wrap: nowrap
-  justify-content: center
-  align-items: center
-  flex-direction: row
-.tema2-2-4 .btn-grupo:hover, .btn-grupo[aria-expanded="true"]
-  background: #FF8578
-.tema2-2-4 .btn-grupo.collapsed  
-  background: #FED981
-.tema2-2-4 .fondo-botones img
-  position: absolute
-  top: -10%
-  left: 8.9%
-  width: 441px
-  z-index: 0
-  @media (max-width: 992px) 
-    display: none
-  @media (min-width: 1400px) 
-    top: -12%
-    left: 9.9%
-    width: 500px
-
-.tema2-2-4 .movimiento-lupa
-  animation: move1 20s ease-in-out infinite
-  position: absolute
-  width: 140px
-  @media (max-width: 992px)
-    top: 7%
-    width: 95px
-    left: 0%
-@keyframes move1
-  0%
-    top: 3%
-    left: 5%
-  25%
-    top: 3%
-    left: 50%
-  50%
-    top: 70%
-    left: 50%    
-  75%
-    top: 70%
-    left: 5%
-  100%
-    top: 3%
-    left: 5%  
-.tema2-2-4 .movimiento-nube
-  animation: nube 5s ease-in-out infinite alternate
-  position: absolute
-  width: 170px
-  left: 10%
-  top: -5%
-  z-index: 0
-  @media (max-width: 992px)
-    top: 7%
-    left: 10%
-@keyframes nube
-  0%
-    transform: translateY(14px)
-  100%
-    transform: translateY(0px)  
-.tema2-2-4 .top-nube
-  position: relative 
-  z-index: 999
-
-
-.tema-3.slyder-e .slyder-e__content  
-  border-radius: 10px
-.tema-3 .img-absolute img  
-  position: absolute
-  top: 33%
-  left: 126%
-  width: 380px
-  @media (max-width: 992px)  
-    position: inherit
-    margin: 0 auto
-  @media (min-width: 1400px)    
-    top: 24%
-    left: 126%
-    width: 480px
-.tema-3 .row.bg-1
-  height: 408px
-  @media (max-width: 992px)  
-    height: 869px
-  @media (min-width: 1400px)  
-    height: 450px  
-
-.tema-4 .slyder-a__tipo-a .slyder-a__bullets
-  bottom: 15px    
-.tema-4 .slyder-a__btn--sigt, .tema-4 .slyder-a__btn--atrs
-  width: 40px
-  height: 40px
-  background-color: #B0C0D2
-  border-radius: 0%
