@@ -5,6 +5,7 @@ export default {
       'La ofimática posee herramientas muy valiosas, dichas herramientas permiten a las organizaciones gestionar la información de forma óptima según necesidades, sin embargo, disponer de información de forma oportuna no solo es importante, también es de gran relevancia y responsabilidad hacer uso de las ofimáticas para dar manejo a la información de los clientes con seguridad y aplicando la normativa. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -30,7 +31,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Hoja electrónica',
+        titulo: 'Hoja de cálculo electrónica',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -161,7 +162,7 @@ export default {
         'Entorno en el cual se contiene el suelo, el agua, el aire, la interrelación y las relaciones de estos elementos con otros elementos vivos.',
     },
     {
-      termino: 'Aviso de Privacidad',
+      termino: 'Aviso de privacidad',
       significado:
         'La comunicación escrita o verbal, emitida por una entidad jurídica o persona natural, dirigida a un propietario o titular para el tratamiento de los datos.',
     },
@@ -181,7 +182,7 @@ export default {
         'Los espacios que se ubican de forma vertical en la hoja de cálculo, se identifican por que los encabezados son letras dispuestas en orden alfabético.',
     },
     {
-      termino: 'Desarrollo Sostenible',
+      termino: 'Desarrollo sostenible',
       significado:
         'Transformaciones tanto naturales como culturales, sociales, institucionales y económicas, que están dirigidas a mejorar las condiciones de vida del ser humano.',
     },
@@ -230,7 +231,7 @@ export default {
     },
     {
       texto:
-        'Todo Software. (2019). Configurar Hoja de Cálculo Excel. [Video]. YouTube. ',
+        'Todo <em>Software.</em> (2019). Configurar Hoja de Cálculo Excel. [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=7b2U1EsjZJw',
     },
@@ -371,18 +372,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Diana Carolina Acevedo Barón',
+        nombre: 'Yuly Andrea Rey Quiñonez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Andrea Paola Botello De la Rosa',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -393,13 +389,61 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ' ',
+        nombre: 'Wilson Andrés Arenales Cáceres ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jaime Enrique Díaz Reyes ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaime ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Mayerly Pérez Jaimes ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Natalia Maldonado Delgado ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -25,7 +25,7 @@
         .titulo-tarjeta
           h3.mb-0 02
           hr.mt-2
-          p Las Corporaciones Autónomas Regionales, el IDEAM (instituto de hidrología, meteorología y estudios ambientales), y las Secretarias de Ambiente de cada municipio, las normas que se emiten hacen parte de los sistemas de gestión ambiental de las organizaciones, todos los sistemas de gestión ambiental tienen un punto primordial y son las políticas y la normatividad es el fundamento de las políticas de gestión ambiental.
+          p Las Corporaciones Autónomas Regionales, el IDEAM (instituto de hidrología, meteorología y estudios ambientales), y las Secretarías de Ambiente de cada municipio, las normas que se emiten hacen parte de los sistemas de gestión ambiental de las organizaciones, todos los sistemas de gestión ambiental tienen un punto primordial y son las políticas y la normatividad es el fundamento de las políticas de gestión ambiental.
       .tarjeta-botones.bg-acento-botones.p-3(v-if="selected === 2")
         .titulo-tarjeta
           h3.mb-0 03

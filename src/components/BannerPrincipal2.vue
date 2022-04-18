@@ -3,7 +3,7 @@
   .container.tarjeta.position-relative(
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-0
+    .row.banner-principal__row.position-relative.justify-content-center.align-items-center.g-5
       .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
@@ -94,6 +94,7 @@ export default {
 
   &__img
     animation: scale 5s ease-in-out infinite alternate
+    width: 40%
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem
@@ -184,7 +185,7 @@ export default {
     transform: translateY(0px)
 @keyframes scale
   0%
-    transform: scale(1.1)
+    transform: scale(1.01)
 
   100%
     transform: scale(1)

@@ -57,7 +57,7 @@ export default {
       {
         titulo: '',
         texto:
-          'En el proceso de recolección y distribución de mercancías se identifican impactos potenciales como contaminación del aire y el suelo, uso de recursos derivados de la madera, variación del relleno sanitario con los desechos generados, como plan de mitigación se establecen proceso de capacitación para separación de residuos en fuente, el uso de estibas plásticas, señalización de manejo adecuado de residuos y ubicación de puntos ecológicos y obtención de licencias ambientales para la disposición fina de residuos.',
+          'En el proceso de recolección y distribución de mercancías se identifican impactos potenciales como contaminación del aire y el suelo, uso de recursos derivados de la madera, variación del relleno sanitario con los desechos generados, como plan de mitigación se establecen proceso de capacitación para separación de residuos en fuente, el uso de estibas plásticas, señalización de manejo adecuado de residuos y ubicación de puntos ecológicos y obtención de licencias ambientales para la disposición final de residuos.',
         imagen: require('@/assets/curso/59.jpg'),
       },
       {
