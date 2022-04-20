@@ -24,8 +24,8 @@
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 Para tener una comprensión más clara de la hoja de cálculo y su operatividad, lo invitamos a ver el video <b>“Introducción a la hoja de cálculo”</b>, que se encuentra en el material complementario.
-        .col-2
+          p.mb-0.ms-5 Para tener una comprensión más clara de la hoja de cálculo y su operatividad, lo invitamos a ver el video <b>“Introducción a la hoja de cálculo”</b>, que se encuentra en el material complementario.
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=xthhxRF7Epo" target="_blank")
             span Ver mas
             i.fas.fa-file-download
@@ -110,19 +110,19 @@
         p.mb-3 Luego se presiona ENTER y se obtiene el resultado.
         img(src='@/assets/curso/24.jpg' alt='AvatarTop')
     .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
-      .row.justify-content-center.align-items-center.px-5.py-3
+      .row.justify-content-between.align-items-center.px-5.py-3
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 En el vídeo <b>“Hoja de Cálculo (Excel) Conceptos Básicos”</b>, que se encuentra en el material complementario, se puede apreciar con claridad la ubicación de los componentes de la hoja de cálculo que le permitirán ubicar las diferentes zonas de la hoja de cálculo, así podrá escribir en el lugar adecuado los valores para que realice las operaciones con los cuales se obtengan los resultados esperados.
-        .col-2
+          p.mb-0.ms-5 En el vídeo <b>“Hoja de Cálculo (Excel) Conceptos Básicos”</b>, que se encuentra en el material complementario, se puede apreciar con claridad la ubicación de los componentes de la hoja de cálculo que le permitirán ubicar las diferentes zonas de la hoja de cálculo, así podrá escribir en el lugar adecuado los valores para que realice las operaciones con los cuales se obtengan los resultados esperados.
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=mt1CkQKuFW4&t=95s" target="_blank")
             span Ver mas
             i.fas.fa-file-download
     br
     h3.titulo-tercero(data-aos='fade-right').mt-4 Fórmulas básicas y lógicas
     p El siguiente recurso le dará un recorrido por las fórmulas básicas y lógicas de Excel.
-    SlyderA.mb-5
+    SlyderA.my-5
       .tarjeta.color-primario.rounded-0.slyder-card-front
         img(src='@/assets/curso/25.jpg' alt='AvatarTop' style='width: 820px')
         .slyder-card-front__card.p-5
@@ -191,8 +191,8 @@
               figure
                 img(src='@/assets/curso/29.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              h4 La base de las funciones lógicas es el manejo de funciones algebraicas de la forma:
-              span.span-rojo.p-2.mb-3
+              h4.mb-3 La base de las funciones lógicas es el manejo de funciones algebraicas de la forma:
+              span.span-rojo.p-2.my-3
                 b F(x) = 2x
               p.mt-3 Estas funciones tienen la característica que tienen una variable dependiente y una independiente, esto quiere decir, que se debe encontrar el resultado de multiplicar el número 2, que es la variable dependiente, por cualquier número x, la cual es la variable independiente.
           .row.align-items-center
@@ -200,7 +200,7 @@
               figure
                 img(src='@/assets/curso/30.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              h4 X puede tomar cualquier número
+              h4.mb-2 X puede tomar cualquier número
               p Pero el número 2 se debe de conservar, así por ejemplo podemos ver la operación en la siguiente tabla.
               img(src='@/assets/curso/31.svg')
           .row.align-items-center
@@ -208,14 +208,14 @@
               figure
                 img(src='@/assets/curso/33.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              h4 Se puede notar que el número 2 siempre se repite, el que cambia es el valor de x
+              h4.mb-3 Se puede notar que el número 2 siempre se repite, el que cambia es el valor de x
               img(src='@/assets/curso/32.svg')
           .row.align-items-center
             .col-md-6
               figure
                 img(src='@/assets/curso/34.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              h4 La anterior es una función sencilla 
+              h4.mb-2 La anterior es una función sencilla 
               p Pero se pueden hacer funciones muy complejas. Lo importante es que la parametrización de la fórmula que se ingrese sea correcta. Por ejemplo, deseo encontrar el resultado de varias multiplicaciones.
               span.span-rojo.p-2
                 b F(x) = 2x + 3x + 4x
@@ -224,7 +224,7 @@
               figure
                 img(src='@/assets/curso/35.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              h4 La forma de resolver esta fórmula 
+              h4.mb-2 La forma de resolver esta fórmula: 
               p Es que se deben de hacer los cálculos de manera independiente, de la siguiente forma:
               span.span-amarillo.p-2
                 b  F(x) = (2*2) + (3*2)/1 + (4*2) 	
@@ -236,9 +236,9 @@
                 img(src='@/assets/curso/36.svg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
               h4 Si la forma de la función es:
-              span.span-rojo.p-2
+              span.span-rojo.p-2.mb-3
                 b F(x) = 2x + 3y + 4z
-              p Los valores de las variables deben de cambiar de la siguiente manera:
+              p.mt-3 Los valores de las variables deben de cambiar de la siguiente manera:
               span.span-amarillo.p-2
                 b  F(x) = (2*2) + (3*5)/(2) + (4*7)
               p.mt-3 Por eso es importante que, antes de ingresar los valores a la hoja de cálculo, realice la formulación usando papel y lápiz.
@@ -288,8 +288,8 @@
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 Para observar el funcionamiento de las funciones lógicas más utilizadas, lo invitamos a ver el video <b>“Cómo hacer funciones lógicas en Excel”</b>, que se encuentra en el material complementario.
-        .col-2
+          p.mb-0.ms-5 Para observar el funcionamiento de las funciones lógicas más utilizadas, lo invitamos a ver el video <b>“Cómo hacer funciones lógicas en Excel”</b>, que se encuentra en el material complementario.
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=dWy-JjhUsBw" target="_blank")
             span Ver mas
             i.fas.fa-file-download
@@ -303,8 +303,8 @@
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 Para ampliar la información sobre la configuración de una tabla dinámica, lo invitamos a ver el video <b>“Crear tablas dinámicas en Excel”</b>, que se encuentra en el material complementario. 
-        .col-2
+          p.mb-0.ms-5 Para ampliar la información sobre la configuración de una tabla dinámica, lo invitamos a ver el video <b>“Crear tablas dinámicas en Excel”</b>, que se encuentra en el material complementario. 
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=gsxCopOjGZo" target="_blank")
             span Ver mas
             i.fas.fa-file-download
@@ -324,7 +324,7 @@
             p Cuando se tienen muchos datos su análisis se puede volver complejo, si utilizamos gráficos, se puede presentar la información de una manera más comprensible, agradable a los ojos y dinámico.
               br
               br
-              |Las condiciones para crear gráficos en Excel deben tener ciertas condiciones sobre todo de no tener espacios en blanco en los datos que se van a procesar. Nuevamente es recomendable que se utilice el lápiz y el papel para poder visualizar lo que se pretende lograr cuando se analizan los datos
+              |Las condiciones para crear gráficos en Excel deben tener ciertas condiciones sobre todo de no tener espacios en blanco en los datos que se van a procesar. Nuevamente es recomendable que se utilice el lápiz y el papel para poder visualizar lo que se pretende lograr cuando se analizan los datos.
         .row(titulo="").px-5.row.justify-content-center.align-items-center
           .col-lg-2: img(src='@/assets/curso/45.svg')
           .col-lg-10
@@ -334,8 +334,8 @@
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 Para ampliar la información sobre la construcción de gráficos, lo invitamos a ver el video <b>“Crear GRÁFICOS estadísticos. Introducir datos en Excel y crear gráficas”</b>, que se encuentra en el material complementario. 
-        .col-2
+          p.mb-0.ms-5 Para ampliar la información sobre la construcción de gráficos, lo invitamos a ver el video <b>“Crear GRÁFICOS estadísticos. Introducir datos en Excel y crear gráficas”</b>, que se encuentra en el material complementario. 
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=04pGYGNxRZY" target="_blank")
             span Ver mas
             i.fas.fa-file-download  
@@ -385,8 +385,8 @@
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 Para ampliar la información, lo invitamos a ver el video <b>“Cómo enlazar o vincular celdas entre diferentes hojas”</b>, que se encuentra en el material complementario.
-        .col-2
+          p.mb-0.ms-5 Para ampliar la información, lo invitamos a ver el video <b>“Cómo enlazar o vincular celdas entre diferentes hojas”</b>, que se encuentra en el material complementario.
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=PU6SqS6Rtnc" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
@@ -410,8 +410,8 @@
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 Para ampliar la información, lo invitamos a ver el video <b>“Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos”</b>, que se encuentra en el material complementario.
-        .col-2
+          p.mb-0.ms-5 Para ampliar la información, lo invitamos a ver el video <b>“Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos”</b>, que se encuentra en el material complementario.
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=ghyGNJKjPsQ" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
@@ -426,8 +426,8 @@
         .col-lg-1
           img(src="@/assets/curso/10.svg").me-5
         .col-9
-          p.mb-0.ms-4 Para conocer la forma como se diseña un formulario en Excel y sus posibles parametrizaciones, lo invitamos a ver el video <b>“Cómo crear una base de datos en Excel”</b>, que se encuentra en el material complementario.
-        .col-2
+          p.mb-0.ms-5 Para conocer la forma como se diseña un formulario en Excel y sus posibles parametrizaciones, lo invitamos a ver el video <b>“Cómo crear una base de datos en Excel”</b>, que se encuentra en el material complementario.
+        .col-2.ps-5
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=qD1ESeppezg" target="_blank")
             span Ver mas
             i.fas.fa-file-download 

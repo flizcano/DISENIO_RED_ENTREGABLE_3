@@ -88,7 +88,6 @@
       .col-lg-8
         p.mb-0 <b>El fin de la política de protección de datos</b> es la de estandarizar procesos de recolección y tratamiento de datos personales según la normativa establecida, así como la de crear esquemas organizados que salvaguarden información privada e información sensible de los titulares. 
         br
-
         | <b>Todo titular de la información tiene un derecho y unas condiciones de legalidad para el tratamiento de los datos</b>, el habeas data, este derecho de tipo constitucional art. 15 CPN  que como se referenció antes es el derecho a la intimidad familiar, personal y al buen nombre, así como al estado como ente garantista de que el artículo se cumpla, de tal forma que el propietario de la información puede conocer, actualizar, rectificar, modificar, la información recolectada, en archivos de entidades públicas y privadas o en bancos de datos, de tal manera que la organización debe generar herramientas para que el propietario de la información pueda consultar de forma gratuita los datos por lo menos una vez al mes y cuando se presenten modificaciones a las política de tratamiento de datos.
     .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3

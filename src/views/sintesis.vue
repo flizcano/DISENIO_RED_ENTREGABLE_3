@@ -14,12 +14,6 @@
           img(src='@/assets/curso/sintesis.svg', alt='Texto que describa la imagen')
 
 
-    p.mb-5(data-aos="fade") El video refiere síntesis de lo que es ofimática, usos, así como aplicabilidad en muchos campos incluidos la protección del medio ambiente.
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-12
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>
