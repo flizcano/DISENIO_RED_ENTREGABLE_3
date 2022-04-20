@@ -107,11 +107,11 @@
         li 
           .lista-ol--cuadro__vineta
             span a
-          | Cuando se crean documentos en una <em>suite</em>, se puede presentar la situación de incompatibilidad con otra suite; por ejemplo, si un documento de texto es creado en Word de Microsoft, al intentar abrirlo con Writer de Open Office, es probable que el programa no esté capacitado para ‘traducir’ al 100% el formato del texto que tiene el documento de Word. Una alternativa de las opciones por las que se puede optar es la de enviar en formato genérico, como sería un PDF.
+          p.mb-0 Cuando se crean documentos en una <em>suite</em>, se puede presentar la situación de incompatibilidad con otra suite; por ejemplo, si un documento de texto es creado en Word de Microsoft, al intentar abrirlo con Writer de Open Office, es probable que el programa no esté capacitado para ‘traducir’ al 100% el formato del texto que tiene el documento de Word. Una alternativa de las opciones por las que se puede optar es la de enviar en formato genérico, como sería un PDF.
         li 
           .lista-ol--cuadro__vineta
             span b
-          | Las herramientas ofimáticas son fáciles de manejar, si el usuario maneja un nivel básico de conocimiento. No obstante, hay que tener en cuenta que algunas son herramientas complejas con muchas funciones y, por lo general, no se aprovechan en su totalidad debido al nivel de conocimiento del usuario. Es por esa razón que recomendamos realizar capacitaciones con este tipo de herramientas.
+          p.mb-0 Las herramientas ofimáticas son fáciles de manejar, si el usuario maneja un nivel básico de conocimiento. No obstante, hay que tener en cuenta que algunas son herramientas complejas con muchas funciones y, por lo general, no se aprovechan en su totalidad debido al nivel de conocimiento del usuario. Es por esa razón que recomendamos realizar capacitaciones con este tipo de herramientas.
     
 
 
