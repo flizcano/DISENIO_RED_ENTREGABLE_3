@@ -63,7 +63,7 @@ export default {
       {
         titulo: '',
         texto:
-          'En referencia al uso del papel en oficinas, esta se denomina política de cero papel y tiene como objetivo motivar el uso de menos papel en el desarrollo de las actividades por parte de los colaboradores, además se establecen políticas para la generación de impresos como por ejemplo: márgenes de papel, tipo de letras, tamaño de letras, impresiones a doble cara, uso de papel reciclado y todas las demás herramientas que los paquetes de software generan para hacer un uso adecuado, racional y responsable frente al uso del papel y el aporte de cada uno a la protección y conservación del medio ambiente. (Solano Hernández, 2018)',
+          'En referencia al uso del papel en oficinas, esta se denomina política de cero papel y tiene como objetivo motivar el uso de menos papel en el desarrollo de las actividades por parte de los colaboradores, además se establecen políticas para la generación de impresos como por ejemplo: márgenes de papel, tipo de letras, tamaño de letras, impresiones a doble cara, uso de papel reciclado y todas las demás herramientas que los paquetes de software generan para hacer un uso adecuado, racional y responsable frente al uso del papel y el aporte de cada uno a la protección y conservación del medio ambiente. (Solano Hernández, 2018).',
         imagen: require('@/assets/curso/60.jpg'),
       },
     ],

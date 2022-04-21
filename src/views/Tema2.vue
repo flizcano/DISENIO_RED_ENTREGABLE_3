@@ -352,28 +352,28 @@
                 figure
                   img(src='@/assets/curso/46.png', alt='Texto que describa la imagen')
               .col-md-5.mb-4.mb-md-0
-                h4 Relación y vínculos entre hojas y libros.
+                h4 Relación y vínculos entre hojas y libros
                 p Los datos en una base de datos cobran vida cuando se relacionan con otros datos de otras bases de datos diferentes a la principal pero que se complementan.
             .row.align-items-center
               .col-md-7
                 figure
                   img(src='@/assets/curso/47.png', alt='Texto que describa la imagen')
               .col-md-5.mb-4.mb-md-0
-                h4 En muchos casos en las empresas diferentes áreas generan bases de datos que se enfocan en su función empresarial. 
+                h4 En muchos casos en las empresas diferentes áreas generan bases de datos que se enfocan en su función empresarial
                 p En ese contexto es necesario tener presente que en la administración moderna todas las empresas deben tener enfoques sistémicos donde todo está relacionado. Si no se tiene presente que la interacción de las áreas es inherente al funcionamiento de la organización, dicha organización está condenada al fracaso una vez que no está implementando procesos de mejora continua que busquen el mejoramiento de la competitividad..   
             .row.align-items-center
               .col-md-7
                 figure
                   img(src='@/assets/curso/48.png', alt='Texto que describa la imagen')
               .col-md-5.mb-4.mb-md-0
-                h4 Es en ese contexto que la relación de las áreas se ve evidenciada cuando las bases de datos se pueden relacionar. 
+                h4 Es en ese contexto que la relación de las áreas se ve evidenciada cuando las bases de datos se pueden relacionar 
                 p  Para poder hacer esa asociación se debe de tener un dato en común, por lo general se usa el número de identificación personal o empresarial y partiendo de ese dato clave se pueden relacionar las bases de datos.   
             .row.align-items-center
               .col-md-7
                 figure
                   img(src='@/assets/curso/49.png', alt='Texto que describa la imagen')
               .col-md-5.mb-4.mb-md-0
-                h4 En el capítulo anterior se trató el tema de las funciones lógicas.
+                h4 En el capítulo anterior se trató el tema de las funciones lógicas
                 p La función BUSCARV permite buscar en una base de datos alterna un dato que se encuentra en la base de datos principal y asociar una base de datos con otra. 
             .row.align-items-center
               .col-md-7

@@ -18,11 +18,11 @@
             p.text-regular Todas las personas tienen derecho a su intimidad personal y a su buen nombre y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h5.mb-0 Constitución Política de Colombia, Art 15, 2021
+            .h5.mb-0 Constitución Política de Colombia, art 15, 2021
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-2.col-md-3.col-sm-4: img(src='@/assets/curso/62.svg').mb-3.mb-lg-0
       .col-lg-10.col-md-9.col-sm-8
-        p También encontramos dentro de la normatividad de seguridad de la información, la ley 1581 de octubre de 2012, ley mediante la cual el Congreso de la República reglamentó en Colombia, las disposiciones para la protección de datos personales, posteriormente se anexo el decreto 1377 de 2013, en el cual se establece un reglamento parcial de la ley 1581 de 2012 frente a la protección de datos personales. (Ministerio de Comercio Industria y Turismo, 2013) y el decreto 1074 de 2015 en el artículo 25 incluye reglamentación a la ley 1581 de 2012 frente a la protección de datos personales. (Ministerio de Comercio Industria y Turismo, 2015)
+        p También encontramos dentro de la normatividad de seguridad de la información, la Ley 1581 de octubre de 2012, Ley mediante la cual el Congreso de la República reglamentó en Colombia, las disposiciones para la protección de datos personales, posteriormente se anexo el decreto 1377 de 2013, en el cual se establece un reglamento parcial de la Ley 1581 de 2012 frente a la protección de datos personales. (Ministerio de Comercio Industria y Turismo, 2013) y el decreto 1074 de 2015 en el artículo 25 incluye reglamentación a la Ley 1581 de 2012 frente a la protección de datos personales. (Ministerio de Comercio Industria y Turismo, 2015).
     .contenedor-imagen-up.p-3.mb-5
       .row.mb-5.g-5.align-items-center.justify-content-end
         .col-xl-4
@@ -83,7 +83,7 @@
           figure
             img(src='@/assets/curso/68.png', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
-          p La autorización especial de datos personales sensibles refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares, es decir el manejo de los datos sensibles; no obstante, la ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles. 
+          p La autorización especial de datos personales sensibles refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares, es decir el manejo de los datos sensibles; no obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles. 
     .row.mb-5.g-2.align-items-center
       .col-lg-4: img(src='@/assets/curso/69.png', alt='Texto que describa la imagen')
       .col-lg-8
