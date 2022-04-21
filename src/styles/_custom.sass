@@ -42,6 +42,14 @@
       bottom: 0
       p
         opacity: 1
+  @media (max-width: $bp-max-md)
+    height: 500px
+    img
+      width: auto
+      max-width: none
+      
+
+      
 
 // Tarjeta up slyde // 
 
@@ -63,6 +71,11 @@
   background-image: url(../assets/curso/banner-interno.png) !important
 .slyder-a__btn--sigt , .slyder-a__btn--atrs
   opacity: 1
+.slyder
+  height: 100% !important
+  .slyder-card-front 
+    @media (max-width: $bp-max-sm)
+      height: 500px !important
 .slyder-card-front__card 
   @media (max-width: $bp-max-lg) 
     width: 100% !important

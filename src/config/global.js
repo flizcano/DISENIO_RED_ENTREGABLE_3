@@ -111,46 +111,46 @@ export default {
   referencias: [
     {
       referencia:
-        'Corporaciones Autónomas Regionales. (2020). Glosario de Términos Ambientales. Obtenido de ',
+        'Corporaciones Autónomas Regionales. (2020). Glosario de Términos Ambientales.  ',
       link: 'https://www.car.gov.co/vercontenido/2215',
     },
     {
       referencia:
-        'Dozo & Martínez Quijano. (2013). Glosario Iberoamericano de Protección de Datos. Obtenido de ',
+        'Dozo & Martínez Quijano. (2013). Glosario Iberoamericano de Protección de Datos.  ',
       link: 'https://www.habeasdat.com/GLOSARIO.pdf',
     },
     {
       referencia:
-        'Ministerio de Comercio Industria y Turismo. (2013). Decreto 1377 de 2013. Obtenido de ',
+        'Ministerio de Comercio Industria y Turismo. (2013). Decreto 1377 de 2013.  ',
       link:
         'http://wsp.presidencia.gov.co/Normativa/Decretos/2013/Documents/JUNIO/27/DECRETO%201377%20DEL%2027%20DE%20JUNIO%20DE%202013.pdf',
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2015). Decreto 1074 de 2015. Obtenido de ',
+        'Ministerio de Comercio, Industria y Turismo. (2015). Decreto 1074 de 2015.  ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76608',
     },
     {
       referencia:
-        'Secretaria del Senado. (2021). Artículo 15 y 79 de la Constitución Política Nacional. Obtenido de ',
+        'Secretaria del Senado. (2021). Artículo 15 y 79 de la Constitución Política Nacional.  ',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html#15',
     },
     {
       referencia:
-        'Solano Hernández, A.F. (2018). Analisis y Evaluación de la Gestión Ambiental en Servientrega S.A. Obtenido de ',
+        'Solano Hernández, A.F. (2018). Analisis y Evaluación de la Gestión Ambiental en Servientrega S.A.  ',
       link:
         'https://repository.urosario.edu.co/bitstream/handle/10336/18287/SolanoHernandez-AndresFelipe-2018.pdf?sequence=21&isAllowed=y',
     },
     {
       referencia:
-        'Superintendencia de Industria y Comercio, SIC. (2021) Protección de Datos Personales. Obtenido de ',
+        'Superintendencia de Industria y Comercio, SIC. (2021) Protección de Datos Personales.  ',
       link: 'https://www.sic.gov.co/sobre-la-proteccion-de-datos-personales',
     },
     {
       referencia:
-        'Unidad de Planeación Minero-Energética. (2019). Normatividad Ambiental y Sanitaria. Obtenido de: ',
+        'Unidad de Planeación Minero-Energética. (2019). Normatividad Ambiental y Sanitaria. : ',
       link:
         'http://www.upme.gov.co/guia_ambiental/carbon/gestion/politica/normativ/normativ.htm#BM1__NORMATIVIDAD_GENERAL',
     },

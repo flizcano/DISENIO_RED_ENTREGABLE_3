@@ -37,27 +37,27 @@
       br
       |<b>Ejemplo:</b> 
     .bg-1-claro.position-relative.p-5.mb-5
-      .img-float(style=' bottom: 40%; left: 2%;'): img(src='@/assets/curso/float1.svg')
-      .img-float(style=' top: 10%; right: 2%;'): img(src='@/assets/curso/float2.svg')
-      .img-float(style=' bottom: 2%; left: 20%;'): img(src='@/assets/curso/float3.svg')
-      SlyderA.slyderA-editado.px-5
+      .img-float.d-none.d-xl-block(style=' bottom: 40%; left: 2%;'): img(src='@/assets/curso/float1.svg')
+      .img-float.d-none.d-xl-block(style=' top: 10%; right: 2%;'): img(src='@/assets/curso/float2.svg')
+      .img-float.d-none.d-xl-block(style=' bottom: 2%; left: 20%;'): img(src='@/assets/curso/float3.svg')
+      SlyderA.slyderA-editado.px-lg-5
         .tarjeta-slyde
-          img(src='@/assets/curso/16.jpg' alt='AvatarTop')
+          img.d-none.d-lg-block(src='@/assets/curso/16.jpg' alt='AvatarTop')
           .tarjeta-slyde__contenido.p-4
             p.mb-0 Se requiere conocer la suma de los gastos de caja menor de la semana del lunes 8 de noviembre al viernes 12 de noviembre, este es un cálculo básico, por tanto se debe parametrizar la hoja, esto se hace registrando en una celda información de texto con la fecha del registro y en la celda continua  el valor pagado o desembolso realizado, con el soporte de pago, una vez digitalizada la información, se aplica la herramienta sumatoria y obtendremos un resultado rápido, preciso y confiable, es de anotar que para que el resultado cumpla los anteriores parámetros, el ingreso de la información.                       
         .tarjeta-slyde
-          img(src='@/assets/curso/17.jpg' alt='AvatarTop')
+          img.d-none.d-lg-block(src='@/assets/curso/17.jpg' alt='AvatarTop')
           .tarjeta-slyde__contenido.p-4
             p.mb-0 Es decir, la digitalización debe ser datos precisos, a continuación se presenta secuencia de imágenes del desarrollo del ejemplo:
               br
               br
               |1.Crear la hoja de Excel con el registro.  Se hace haciendo Clic en la parte superior de la barra de herramientas, la opción guardar, para el caso se crea una carpeta denominada Gastos de Caja Menor, esta se crea dando clic derecho crear carpeta y en el espacio inferior de la pantalla se registra el nombre, luego clic sobre el nombre de la carpeta y allí ya se registra el archivo Gastos de Caja Menor Noviembre 8 al 12, de tal manera que ya se creó la hoja de cálculo digitar la información.                      
         .tarjeta-slyde
-          img(src='@/assets/curso/18.jpg' alt='AvatarTop')
+          img.d-none.d-lg-block(src='@/assets/curso/18.jpg' alt='AvatarTop')
           .tarjeta-slyde__contenido.p-4
             p.mb-0 2. Una vez digitalizada la información, se ubica el curso sobre la herramienta y como observamos se enmarca los registros que vamos a sumas, se presiona ENTER.                       
         .tarjeta-slyde
-          img(src='@/assets/curso/19.jpg' alt='AvatarTop')
+          img.d-none.d-lg-block(src='@/assets/curso/19.jpg' alt='AvatarTop')
           .tarjeta-slyde__contenido.p-4
             p.mb-0 3. Finalmente y como se observa en la imagen, se obtiene el resultado de la operación. 
     p.mb-5 Para ampliar la información sobre la configuración de una hoja de cálculo, lo invitamos a ver el video “Configuración hoja de cálculo”, que se encuentra en el material complementario.                      
@@ -123,7 +123,8 @@
     br
     h3.titulo-tercero(data-aos='fade-right').mt-4 Fórmulas básicas y lógicas
     p El siguiente recurso le dará un recorrido por las fórmulas básicas y lógicas de Excel.
-    SlyderA.my-5
+    
+    SlyderA.slyder.my-5
       .tarjeta.color-primario.rounded-0.slyder-card-front
         img(src='@/assets/curso/25.jpg' alt='AvatarTop' style='width: 820px')
         .slyder-card-front__card.p-5
@@ -277,7 +278,7 @@
       .col-lg-4
         .titulo-sexto.color-acento-contenido.fst-italic
           h5 Figura 2
-          span Ícono de formulas logicas 
+          span Ícono de fórmulas lógicas 
         img(src='@/assets/curso/40.svg', alt='Texto que describa la imagen')
       .col-lg-8
         .titulo-sexto.color-acento-contenido.fst-italic
@@ -513,6 +514,12 @@ export default {
     bottom: -23px
   .slyder-a__bullets__item
     border: 3px solid #5263e2
+  @media (max-width: $bp-max-xs)
+    .tarjeta-slyde
+      height: 610px !important
+  @media (max-width: $bp-max-md)
+    .tarjeta-slyde
+      height: 408px
 .tarjeta-slyde
   position: relative
 
