@@ -19,13 +19,13 @@
               br
               br
               |Está presente en todos los paquetes o suites de ofimática como son: <b>office, Google Suite o iWork.</b>
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 Para tener una comprensión más clara de la hoja de cálculo y su operatividad, lo invitamos a ver el video <b>“Introducción a la hoja de cálculo”</b>, que se encuentra en el material complementario.
-        .col-2.ps-5
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg")
+        .col-8
+          p.mb-0 Para tener una comprensión más clara de la hoja de cálculo y su operatividad, lo invitamos a ver el video <b>“Introducción a la hoja de cálculo”</b>, que se encuentra en el material complementario.
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=xthhxRF7Epo" target="_blank")
             span Ver mas
             i.fas.fa-file-download
@@ -66,9 +66,10 @@
     p.mb-5 La barra de fórmulas de Excel es el espacio donde se encuentran las expresiones o los valores que se utilizan para realizar las operacione, esta barra permite visualizar y editar la fórmula que se va a implementar para el proceso que se deba hacer.
       br
       br
-      | En el siguiente recurso usted descubrirá qué es la barra de fórmulas y cómo utilizarla. 
-    .row.mb-5.size-img.mt-5
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      | En el siguiente recurso usted descubrirá qué es la barra de fórmulas y cómo utilizarla.
+    br 
+    .row.mb-5.size-img.mt-3.justify-content-center
+      .col-md-10.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/19.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -78,7 +79,7 @@
             .p-4
               p La barra de fórmulas de Excel es el espacio donde se encuentran las expresiones o los valores que se utilizan para realizar las operaciones, esta barra permite visualizar y editar la fórmula que se va a implementar para el proceso que se deba hacer. 
     
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-10.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/20.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -88,7 +89,7 @@
             .p-4
               p La importancia de la barra de fórmulas radica en que en este espacio se relacionan celdas que contienen valores numéricos o de texto, si lo que se busca es que el valor sea reconocido como número se le debe anteponer el símbolo del igual (=) por lo general está ubicado sobre el número cero en el teclado y debe oprimirse la tecla shift + el número cero. 
     
-      .col-md-6.col-lg.mb-5.mb-lg-0
+      .col-md-10.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/21.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -109,13 +110,13 @@
       .py-3.py-md-4.px-5(titulo="Obtener el resultado")
         p.mb-3 Luego se presiona ENTER y se obtiene el resultado.
         img(src='@/assets/curso/24.jpg' alt='AvatarTop')
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-between.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 En el vídeo <b>“Hoja de Cálculo (Excel) Conceptos Básicos”</b>, que se encuentra en el material complementario, se puede apreciar con claridad la ubicación de los componentes de la hoja de cálculo que le permitirán ubicar las diferentes zonas de la hoja de cálculo, así podrá escribir en el lugar adecuado los valores para que realice las operaciones con los cuales se obtengan los resultados esperados.
-        .col-2.ps-5
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg")
+        .col-8
+          p.mb-0 En el vídeo <b>“Hoja de Cálculo (Excel) Conceptos Básicos”</b>, que se encuentra en el material complementario, se puede apreciar con claridad la ubicación de los componentes de la hoja de cálculo que le permitirán ubicar las diferentes zonas de la hoja de cálculo, así podrá escribir en el lugar adecuado los valores para que realice las operaciones con los cuales se obtengan los resultados esperados.
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=mt1CkQKuFW4&t=95s" target="_blank")
             span Ver mas
             i.fas.fa-file-download
@@ -146,7 +147,7 @@
       .tarjeta.color-primario.rounded-0.slyder-card-front
         img(src='@/assets/curso/25.jpg' alt='AvatarTop' style='width: 820px')
         .slyder-card-front__card.p-5
-          p.mb-3.pe-5 Donde cada incógnita hace referencia a un posible número, la primera incógnita es un valor numérico cualquiera, luego aparece el símbolo de la operación, luego el segundo valor, el símbolo del igual y finalmente el resultado de la operación entre dos términos. 
+          p.mb-3.pe-5.text-small Donde cada incógnita hace referencia a un posible número, la primera incógnita es un valor numérico cualquiera, luego aparece el símbolo de la operación, luego el segundo valor, el símbolo del igual y finalmente el resultado de la operación entre dos términos. 
             br
             br
             |Excel calculará el valor que está posterior al igual, los otros dos términos deberán ser ingresados por el usuario.
@@ -283,13 +284,13 @@
           h5 Figura 3
           span Buscador de funciones
         img(src='@/assets/curso/41.jpg', alt='Texto que describa la imagen')
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
+        .col-1.d-none.d-lg-block
           img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 Para observar el funcionamiento de las funciones lógicas más utilizadas, lo invitamos a ver el video <b>“Cómo hacer funciones lógicas en Excel”</b>, que se encuentra en el material complementario.
-        .col-2.ps-5
+        .col-8
+          p.mb-0 Para observar el funcionamiento de las funciones lógicas más utilizadas, lo invitamos a ver el video <b>“Cómo hacer funciones lógicas en Excel”</b>, que se encuentra en el material complementario.
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=dWy-JjhUsBw" target="_blank")
             span Ver mas
             i.fas.fa-file-download
@@ -298,13 +299,13 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/BN6p79MReoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 Para ampliar la información sobre la configuración de una tabla dinámica, lo invitamos a ver el video <b>“Crear tablas dinámicas en Excel”</b>, que se encuentra en el material complementario. 
-        .col-2.ps-5
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg")
+        .col-8
+          p.mb-0 Para ampliar la información sobre la configuración de una tabla dinámica, lo invitamos a ver el video <b>“Crear tablas dinámicas en Excel”</b>, que se encuentra en el material complementario. 
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=gsxCopOjGZo" target="_blank")
             span Ver mas
             i.fas.fa-file-download
@@ -329,13 +330,13 @@
           .col-lg-2: img(src='@/assets/curso/45.svg')
           .col-lg-10
             p Excel tiene por lo menos unos 100 formatos de gráficos que pueden ser usados en la construcción de interfaces amigables. Nuevamente recalcamos que el tipo de gráfico que se va a seleccionar debe de ayudar a que los gráficos se comprendan de una mejor manera.
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 Para ampliar la información sobre la construcción de gráficos, lo invitamos a ver el video <b>“Crear GRÁFICOS estadísticos. Introducir datos en Excel y crear gráficas”</b>, que se encuentra en el material complementario. 
-        .col-2.ps-5
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg")
+        .col-8
+          p.mb-0 Para ampliar la información sobre la construcción de gráficos, lo invitamos a ver el video <b>“Crear GRÁFICOS estadísticos. Introducir datos en Excel y crear gráficas”</b>, que se encuentra en el material complementario. 
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=04pGYGNxRZY" target="_blank")
             span Ver mas
             i.fas.fa-file-download  
@@ -380,38 +381,38 @@
               .col-md-5.mb-4.mb-md-0
                 h4 También es importante:
                 p Generar enlaces de consulta dentro de la misma base de datos o que lleve a una dirección <em>WEB.</em> Así se permite complementar la información y ampliar un concepto o soportar un dato. 
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 Para ampliar la información, lo invitamos a ver el video <b>“Cómo enlazar o vincular celdas entre diferentes hojas”</b>, que se encuentra en el material complementario.
-        .col-2.ps-5
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg")
+        .col-8
+          p.mb-0 Para ampliar la información, lo invitamos a ver el video <b>“Cómo enlazar o vincular celdas entre diferentes hojas”</b>, que se encuentra en el material complementario.
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=PU6SqS6Rtnc" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
     h3.titulo-tercero(data-aos='fade-right') <em>Dashboard</em> 
     p.mb-5 Los tableros inteligentes son herramientas de ayuda en la creación y propagación de la información, explore el siguiente recurso con el fin de conocer más acerca de ellos.
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.color-primario.tarjeta-hover-morado.p-4.img-rounded
           img(src='@/assets/curso/51.jpg', alt='Texto que describa la imagen' style='width: 354px').mb-4
           p El <em>dashboard</em> es una herramienta muy útil para presentar los datos que se compilan en una o varias tablas dinámicas.
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.color-primario.tarjeta-hover-morado.p-4.img-rounded
           img(src='@/assets/curso/52.jpg', alt='Texto que describa la imagen' style='width: 354px').mb-4
           p La gran ventaja de esta herramienta es que a medida que se actualizan los datos en la base de datos principal, el gráfico dinámico también se actualiza. Es una herramienta muy útil para hacer seguimiento a indicadores y para observar el histórico del comportamiento de los datos. Se permite también visualizar de manera gráfica y ordenada la información que se ha consolidado en una base de datos.
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.color-primario.tarjeta-hover-morado.p-4.img-rounded
           img(src='@/assets/curso/53.jpg', alt='Texto que describa la imagen' style='width: 354px').mb-4
           p Permite también la toma de decisiones para el direccionamiento de la empresa por parte de la alta dirección. Se incluye también gráficos y números sobre un proyecto. Son útiles al implementar modelos eficientes y eficaces para el manejo de la información y permiten de manera inteligente cruzar datos y visualizarlos, otra ventaja es que permite la personalización y su diseño se puede adaptar a las necesidades de la empresa, es un proceso de fácil diseño, comprensión e implementación.
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 Para ampliar la información, lo invitamos a ver el video <b>“Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos”</b>, que se encuentra en el material complementario.
-        .col-2.ps-5
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg")
+        .col-8
+          p.mb-0 Para ampliar la información, lo invitamos a ver el video <b>“Excel - Cómo hacer gráficos dinámicos y crear un Dashboard con segmentación de datos”</b>, que se encuentra en el material complementario.
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=ghyGNJKjPsQ" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
@@ -421,28 +422,28 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Ys10wr50zz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-5 Para conocer la forma como se diseña un formulario en Excel y sus posibles parametrizaciones, lo invitamos a ver el video <b>“Cómo crear una base de datos en Excel”</b>, que se encuentra en el material complementario.
-        .col-2.ps-5
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg")
+        .col-8
+          p.mb-0 Para conocer la forma como se diseña un formulario en Excel y sus posibles parametrizaciones, lo invitamos a ver el video <b>“Cómo crear una base de datos en Excel”</b>, que se encuentra en el material complementario.
+        .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=qD1ESeppezg" target="_blank")
             span Ver mas
             i.fas.fa-file-download 
     h3.titulo-tercero(data-aos='fade-right') Configuración de preguntas
     p.mb-5 Dentro de la configuración del formulario es importante parametrizar primero las preguntas, cada pregunta debe tener la suficiente claridad:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-1: img(src="@/assets/curso/54.svg")
-          .col-lg-11
+          .col-auto: img(src="@/assets/curso/54.svg").mb-5.mb-lg-2
+          .col-lg
             p Cuando cree el campo de una pregunta tenga presente que cada campo debe de tener una respuesta única, es decir una entrada que permitirá luego su análisis, herramientas como listas desplegables, casillas de verificación, opción única, falso y verdadero son muy útiles para parametrizar los valores que se deben ingresar.
         hr
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-1: img(src="@/assets/curso/55.svg")
-          .col-lg-11
+          .col-auto: img(src="@/assets/curso/55.svg").mb-5.mb-lg-2
+          .col-lg
             p Es importante que se considere antes de la publicación del formulario las necesidades de la empresa de manejo de información y validar la funcionalidad del formulario y las preguntas que se ingresan. 
     .texto-2
       p.mb-5 <b>En el video anterior se puede integrar la creación de formulario y la configuración de las preguntas de entrada del formulario utilizando macros sencillos y útiles.</b>
@@ -607,7 +608,7 @@ export default {
   transition: background-color 0.3s ease-in-out
   &:hover
     background-color: $color-secundario
-    p
+    p, em
       color: white
 .texto-2
   p

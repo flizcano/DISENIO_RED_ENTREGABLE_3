@@ -13,11 +13,11 @@
       .imagen-float__2: img(src='@/assets/curso/float6.svg')
       .imagen-float__3: img(src='@/assets/curso/float2.png')
       Botones(data-aos="fade-down")
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
       .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
+        .col-1.d-none.d-lg-block
           img(src="@/assets/curso/10.svg")
-        .col-9
+        .col-8
           p.mb-0 Para ampliar la información, lo invitamos a ver el video <b>“Introducción a la Normatividad Ambiental en Colombia”</b>, que se encuentra en el material complementario.
         .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=XPeC4Fw_T10" target="_blank")

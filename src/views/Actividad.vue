@@ -5,9 +5,8 @@
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
-          figure
-            img(src="@/assets/curso/act-didactica.svg", alt="Texto que describa la imagen", style="width: 140px; margin: 0 auto;")
+        figure
+          img(src="@/assets/curso/a1.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Repaso

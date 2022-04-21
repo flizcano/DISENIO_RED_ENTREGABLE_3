@@ -13,7 +13,7 @@
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/0.jpg')})`}"
           )
-            .imagen-superior.position-absolute(style='bottom:0 ; left: -7%; z-index:1'): img(src='@/assets/curso/1.png')
+            .imagen-superior.position-absolute.d-none.d-lg-block(style='bottom:0 ; left: -7%; z-index:'): img(src='@/assets/curso/1.png')
           .bloque-texto-g__texto.p-5
             p.mb-0 Una herramienta ofimática es un conjunto o recopilación de técnicas, aplicaciones y programas informáticos que pueden ser utilizados tanto de forma personal como empresarial; nos permiten crear, modificar, organizar, optimizar, escanear, imprimir y mejorar, entre otras acciones,  las tareas o procedimientos habituales.
     p.mb-5 Normalmente vienen en paquetes de programas o <em>suites</em>, e incluyen:
@@ -48,28 +48,28 @@
           p Programa o <em>software</em> que aporta la opción de poder tener centralizada toda la información que se utiliza en un correo electrónico, para administrarla fácil y acertadamente.
     p.mb-5 Las características de una <em>suite</em> informática son las siguientes:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-2.col-md-3.col-6(data-aos='fade-right'): img(src='@/assets/curso/7.svg')
-      .col-lg-10.col-md-9.col-6(data-aos='fade-left')
+      .col-lg-2.col-md-3.col-8(data-aos='fade-right'): img(src='@/assets/curso/7.svg').mb-3
+      .col-lg-10.col-md-9.col-12(data-aos='fade-left')
         h4 Facilidad en el manejo de programas básicos
         p Las aplicaciones, como procesadores de textos, hojas de cálculo y presentaciones, aportan gran facilidad en su manejo; pero otras aplicaciones como las bases de datos, son programas más complejos que necesitan más capacitación por parte de la persona que las va a manejar.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-2.col-md-3.col-6(data-aos='fade-right'): img(src='@/assets/curso/8.svg')
-      .col-lg-10.col-md-9.col-6(data-aos='fade-left')
+      .col-lg-2.col-md-3.col-8(data-aos='fade-right'): img(src='@/assets/curso/8.svg').mb-3
+      .col-lg-10.col-md-9.col-12(data-aos='fade-left')
         h4 Funciones integradas
         p Los programas que vienen incorporados dentro de una <em>suite</em> informática, permiten interactuar entre ellos mismos. Por ejemplo, se puede realizar una gráfica estadística en una hoja de cálculo y luego llevarla a una presentación o a un procesador de textos.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.col-md-3.col-6(data-aos='fade-right'): img(src='@/assets/curso/9.svg')
-      .col-lg-10.col-md-9.col-6(data-aos='fade-left')
+      .col-lg-2.col-md-3.col-8(data-aos='fade-right'): img(src='@/assets/curso/9.svg').mb-3
+      .col-lg-10.col-md-9.col-12(data-aos='fade-left')
         h4 Uso <em>online</em> y <em>offline</em>
         p <b>Offline:</b> cuando las aplicaciones se encuentran instaladas directamente en los computadores.
           br
           |<b>Online:</b> cuando se accede por conexión a internet y las aplicaciones se encuentran en un servidor externo. Funcionan como si estuviesen instaladas en el computador, se obtiene accesibilidad desde cualquier dispositivo y la información queda alojada en la nube.
-    .tarjeta.bg-1-claro.p-3.mb-5.ignore-p.rounded-0(data-aos='zoom-in')
-      .row.justify-content-center.align-items-center.px-5.py-3
-        .col-lg-1
-          img(src="@/assets/curso/10.svg").me-5
-        .col-9
-          p.mb-0.ms-4 Para ampliar información, lo invitamos a ver el video <b>“Herramientas ofimáticas”</b>, que se encuentra en el material complementario.
+    .tarjeta.bg-1-claro.p-3.mb-5.rounded-0(data-aos='zoom-in')
+      .row.justify-content-center.align-items-center.py-3.px-3
+        .col-1.d-none.d-lg-block
+          img(src="@/assets/curso/10.svg" style='width: 70px')
+        .col-8
+          p.mb-0 Para ampliar información, lo invitamos a ver el video <b>“Herramientas ofimáticas”</b>, que se encuentra en el material complementario.
         .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=Hs7UG7RO3_M" target="_blank")
             span Ver mas
@@ -147,7 +147,7 @@ export default {
   background-color: #fff3d8
 .tarjeta1
   .bloque-texto-g__texto
-    width: 70%
+    // width: 70%
 .tarjeta.color-acento-contenido--borde
   border-color: #ffcec9
 </style>
