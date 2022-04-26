@@ -139,7 +139,7 @@ export default {
     },
     {
       referencia:
-        'Solano Hernández, A.F. (2018). Analisis y Evaluación de la Gestión Ambiental en Servientrega S.A.  ',
+        'Solano Hernández, A.F. (2018). Análisis y Evaluación de la Gestión Ambiental en Servientrega S.A.  ',
       link:
         'https://repository.urosario.edu.co/bitstream/handle/10336/18287/SolanoHernandez-AndresFelipe-2018.pdf?sequence=21&isAllowed=y',
     },
@@ -343,7 +343,7 @@ export default {
       },
       {
         nombre: 'Cesar Augusto Cano Echeverri',
-        cargo: 'Coordinador tegional de formación profesional ',
+        cargo: 'Coordinador regional de formación profesional ',
         centro: 'Centro de Comercio y Servicios Regional Risaralda',
       },
       {

@@ -85,19 +85,19 @@
             p Es el principal distribuidor de esta tecnología. Se trata de una <em>suite</em> ofimática, para escritorio, que se debe pagar e instalar, para ser utilizada. Se destaca por la variedad de herramientas que aporta para trabajar, pero sobre todo, por la potencia de las mismas. Incluye programas como Word, Excel, PowerPoint, Outlook, Access, OneNote, Project, Publisher, SharePoint, Visio, Teams, Tareas, etc. Según la versión que se compre, dispone de acceso <em>online</em> u <em>offline</em> con instalación de algunas de sus aplicaciones en modo escritorio para varios dispositivos.
       .tarjeta.color-acento-contenido--borde.bg-3-claro.p-4(titulo="Google WorkSpace <em>(Suite)</em>")
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-md-3.col-6: img(src='@/assets/curso/11.jpg')
+          .col-lg-2.col-md-3.col-6: img(src='@/assets/curso/12.jpg')
           .col-lg-10.col-md-9.col-6
             h4 Google WorkSpace (<em>Suite</em>)
             p Con este proveedor, se adquieren herramientas <em>online</em> y con calidad. La oferta se compone de Docs, Sheets, Slides, Gmail, Forms y otras herramientas externas, con la ventaja de ser compatibles. Para servirse de estas herramientas, es necesario tener acceso a internet.
       .tarjeta.color-acento-contenido--borde.bg-3-claro.p-4(titulo="OpenOffice")
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-md-3.col-6: img(src='@/assets/curso/11.jpg')
+          .col-lg-2.col-md-3.col-6: img(src='@/assets/curso/13.jpg')
           .col-lg-10.col-md-9.col-6
             h4 OpenOffice
             p Esta <em>suite</em> es de opción libre, es un poco más reducida, pero con buena operatividad. Es compatible con Windows, iOS y GNU/Linux. Incluye Writer, Calc, Impress, Draw y Base.
       .tarjeta.color-acento-contenido--borde.bg-3-claro.p-4(titulo="iWork")
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-md-3.col-6: img(src='@/assets/curso/11.jpg')
+          .col-lg-2.col-md-3.col-6: img(src='@/assets/curso/14.jpg')
           .col-lg-10.col-md-9.col-6
             h4 iWork
             p Es el paquete privado de Apple. En los equipos de Apple, vienen instaladas, por defecto, estas herramientas: pages, Numbers y Keynote.

@@ -35,7 +35,7 @@
         .titulo-tarjeta
           h3.mb-0 04
           hr.mt-2
-          p En Colombia se cuenta con una amplia normatividad ambiental y sanitaria, estas pueden ser consultadas en el enlace que se registra en el material de apoyo. (Normatividad Ambiental y Sanitaria, 2021)
+          p En Colombia se cuenta con una amplia normatividad ambiental y sanitaria, estas pueden ser consultadas en el enlace que se registra en el material complementario. (Introducción a la Normatividad Ambiental en Colombia)
 
 
 

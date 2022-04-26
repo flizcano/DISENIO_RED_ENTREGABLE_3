@@ -7,7 +7,7 @@
       .titulo-principal__numero.text-white
         span 4
       h1 Normativa de seguridad
-    p.mb-5 La seguridad informática es un aspecto relevante en el uso de las herramientas ofimáticas, a continuación, encontrará un recuerso donde conocerá la normatividad de la seguridad.
+    p.mb-5 La seguridad informática es un aspecto relevante en el uso de las herramientas ofimáticas, a continuación, encontrará un recurso donde conocerá la normatividad de la seguridad.
     p.mb-5 La Constitución Política de Colombia en el artículo 15 hace referencia a:
     .row.mb-5.g-5.align-items-center.justify-content-center
       .col-lg-4: img(src='@/assets/curso/61.png')
@@ -95,7 +95,7 @@
         .col-1.d-none.d-lg-block
           img(src="@/assets/curso/10.svg")
         .col-8
-          p.mb-0 En el video <b>“Normativa de Seguridad”</b>, que se encuentra en el material complementario, encontrará información sobre la legislación en protección de datos personales en Colombia.  
+          p.mb-0 En el video <b>“Legislación en Protección de Datos Personales en Colombia”</b>, que se encuentra en el material complementario, encontrará información sobre la legislación en protección de datos personales en Colombia.  
         .col-2
           a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=bvAH9ppBbbE" target="_blank")
             span Ver mas

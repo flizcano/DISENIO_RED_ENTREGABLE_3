@@ -60,10 +60,10 @@
           img.d-none.d-lg-block(src='@/assets/curso/19.jpg' alt='AvatarTop')
           .tarjeta-slyde__contenido.p-4
             p.mb-0 3. Finalmente y como se observa en la imagen, se obtiene el resultado de la operación. 
-    p.mb-5 Para ampliar la información sobre la configuración de una hoja de cálculo, lo invitamos a ver el video “Configuración hoja de cálculo”, que se encuentra en el material complementario.                      
+    p.mb-5 Para ampliar la información sobre la configuración de una hoja de cálculo, lo invitamos a ver el video “Configuración Hoja de Cálculo Excel”, que se encuentra en el material complementario.                      
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Barra de fórmulas
-    p.mb-5 La barra de fórmulas de Excel es el espacio donde se encuentran las expresiones o los valores que se utilizan para realizar las operacione, esta barra permite visualizar y editar la fórmula que se va a implementar para el proceso que se deba hacer.
+    p.mb-5 La barra de fórmulas de Excel es el espacio donde se encuentran las expresiones o los valores que se utilizan para realizar las operaciones, esta barra permite visualizar y editar la fórmula que se va a implementar para el proceso que se deba hacer.
       br
       br
       | En el siguiente recurso usted descubrirá qué es la barra de fórmulas y cómo utilizarla.
@@ -181,7 +181,7 @@
     ModalA(:abrir-modal.sync="modal1"): img(src='@/assets/curso/26.png')
     ModalA(:abrir-modal.sync="modal2"): img(src='@/assets/curso/28.png')
     ModalA(:abrir-modal.sync="modal3"): img(src='@/assets/curso/27.png')
-    p.mb-5 Para ampliar la información sobre la manera como se pueden configurar las operaciones básicas, lo invitamos a ver el video “Fórmulas básicas en Excel”, que se encuentra en el material complementario.
+    p.mb-5 Para ampliar la información sobre la manera como se pueden configurar las operaciones básicas, lo invitamos a ver el video “Fórmulas básicas de Excel”, que se encuentra en el material complementario.
       br
       br
       |Ahora, sigamos aprendiendo de las diferentes fórmulas de trabajo en hojas de cálculo.
@@ -446,8 +446,8 @@
           .col-auto: img(src="@/assets/curso/55.svg").mb-5.mb-lg-2
           .col-lg
             p Es importante que se considere antes de la publicación del formulario las necesidades de la empresa de manejo de información y validar la funcionalidad del formulario y las preguntas que se ingresan. 
-    .texto-2
-      p.mb-5 <b>En el video anterior se puede integrar la creación de formulario y la configuración de las preguntas de entrada del formulario utilizando macros sencillos y útiles.</b>
+    
+    p.mb-5 <b>En el video anterior se puede integrar la creación de formulario y la configuración de las preguntas de entrada del formulario utilizando macros sencillos y útiles.</b>
 
 
 
