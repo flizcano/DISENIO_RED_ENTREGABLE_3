@@ -36,10 +36,12 @@ section.inicio
         hr(v-if="index != creditosInicio.length -1")
 
     .text-center(v-else)
-      img.d-inline-block.mb-2(src="@/assets/template/logo-sena-naranja.svg" style="width: 100px")
-      h5.mb-0 Ecosistema de recursos educativos digitales
+      img.d-inline-block.mb-2(src="@/assets/template/logo_campus_virtual.png" style="width: 100px")
+      h4.mb-0 Diseño y construcción de RED
+      h5.mb-0 ESPECIALIZACIÓN EN APLICACIÓN DE TIC PARA LA ENSEÑANZA
+      h5.mb-0 UNIVERSIDAD DE SANTANDER UDES
   Footer
-  
+
 
 </template>
 <script>
